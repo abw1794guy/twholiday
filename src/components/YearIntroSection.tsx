@@ -45,8 +45,8 @@ function YearIntroBanner({ year, holidays, yearMeta }: YearIntroSectionProps) {
 
   const trickText =
     leaveDays > 0
-      ? `只需請假 ${leaveDays} 天就能享有 ${longestName}最長 ${longestDays} 天連假`
-      : `${longestName}連假最長高達 ${longestDays} 天，免請假就可以享受！`
+      ? `善用 ${leaveDays} 天年假，搭配 ${longestName}可拿下最長 ${longestDays} 天連假`
+      : `${longestName}最多可連休 ${longestDays} 天，完全不需動用年假！`
 
   return (
     <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-red-50 border-b border-amber-100 p-5">
@@ -59,23 +59,22 @@ function YearIntroBanner({ year, holidays, yearMeta }: YearIntroSectionProps) {
         )}
       </div>
       <h2 className="text-xl font-bold text-slate-900 leading-snug mb-2">
-        {year} 行事曆出爐，想安排連假出遊的趕快看這篇！
+        {year} 年行事曆完整版｜國定假日＋連假請假攻略總整理
       </h2>
       <div className="space-y-1.5 text-sm text-slate-700 leading-relaxed">
         <p className="flex items-start gap-1.5">
           <Plane className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" aria-hidden />
           <span>
-            <strong>{year}</strong> 年共有{' '}
-            <strong className="text-amber-700">{multiDayCount} 次</strong> 3 天以上連假，
-            <strong>{totalCount}</strong> 個國定假日，
-            一年足足有 <strong className="text-amber-700">{multiDayCount} 次</strong> 出國玩的機會！😍
+            {year} 年共有 <strong className="text-amber-700">{totalCount} 個</strong>國定假日，
+            其中 <strong className="text-amber-700">{multiDayCount} 次</strong>連假達 3 天以上，
+            每一次都是說走就走的好機會 ✈️
           </span>
         </p>
         <p className="flex items-start gap-1.5">
           <TrendingUp className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" aria-hidden />
           <span>
-            最強攻略：<strong className="text-emerald-700">{trickText}</strong>，
-            都在這篇一次告訴你！
+            本頁重點：<strong className="text-emerald-700">{trickText}</strong>。
+            各假期最佳請假時機與推薦行程，以下一次看完！
           </span>
         </p>
       </div>
