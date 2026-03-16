@@ -34,7 +34,7 @@ export default function HomePage() {
         <div className="flex justify-center gap-4 lg:gap-6 px-2 sm:px-4">
           <AdSidebar position="left" />
           <main className="max-w-4xl w-full min-w-0 px-2 sm:px-6 py-8">
-            <HeroSection />
+            <HeroSection year={defaultYear} />
             <HolidayPageContent data={data} initialYear={defaultYear} />
           </main>
           <AdSidebar position="right" />
