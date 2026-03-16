@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 廣告位預留樣式，方便之後掛載廣告腳本 */
+.ad-banner-top {
+  min-height: 90px;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+}
+
+.ad-native-travel {
+  min-height: 60px;
+  background: #f8fafc;
+}
+
+/* 手機版表格可左右滑動，觸控友善 */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
