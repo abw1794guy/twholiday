@@ -2,6 +2,7 @@
 
 import type { HolidayItem, MonthlyTravelTip } from '@/src/types/holiday'
 import { MONTH_NAMES } from '@/lib/calendar'
+import { AdNativeTravel } from './AdSense'
 import { MonthCalendar } from './MonthCalendar'
 import { StrategyBadge } from './StrategyBadge'
 
@@ -134,12 +135,7 @@ export function HolidayGrid({ year, holidays, monthlyTips }: HolidayGridProps) {
                         <HolidayStrategyCard key={h.id} h={h} />
                       ))}
                       {monthHolidays.some((h) => h.days >= 3) && (
-                        <div
-                          className="ad-native-travel rounded-lg flex items-center justify-center text-slate-400 text-xs py-4"
-                          aria-label="贊助商內容"
-                        >
-                          贊助商內容：推薦行程
-                        </div>
+                        <AdNativeTravel />
                       )}
                       {tip && (
                         <MonthTravelTips tip={tip} compact />

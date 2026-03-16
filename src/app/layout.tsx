@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Noto_Sans_TC } from 'next/font/google'
+import { AdSenseScript } from '@/src/components/AdSense'
 import './globals.css'
 
 const notoSansTC = Noto_Sans_TC({
@@ -31,6 +32,7 @@ export default function RootLayout({
   return (
     <html lang="zh-TW">
       <body className={`${notoSansTC.variable} font-sans antialiased`}>
+        <AdSenseScript />
         {children}
       </body>
     </html>

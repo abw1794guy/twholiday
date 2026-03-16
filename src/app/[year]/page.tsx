@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import { getAvailableYears, getHolidaysData } from '@/lib/getHolidays'
+import { AdBannerTop } from '@/src/components/AdSense'
 import { HolidayPageContent } from '@/src/components/HolidayPageContent'
 import { HeroSection } from '@/src/components/HeroSection'
 import { SchemaOrgJsonLd } from '@/src/components/SchemaOrgJsonLd'
@@ -41,10 +42,7 @@ export default function YearPage({ params }: YearPageProps) {
     <>
       <SchemaOrgJsonLd data={data} />
       <div className="min-h-screen bg-slate-50 text-slate-900 overflow-x-hidden">
-        {/* 廣告位：頁面頂部 */}
-        <div className="ad-banner-top w-full border-b border-slate-200 flex items-center justify-center text-slate-400 text-sm py-2">
-          廣告位 (ad-banner-top)
-        </div>
+        <AdBannerTop />
 
         <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
           <HeroSection />
