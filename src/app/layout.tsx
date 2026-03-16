@@ -9,6 +9,10 @@ const notoSansTC = Noto_Sans_TC({
 })
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
   title: {
     default: '【2026行事曆】人事行政總處中華民國115年行事曆',
     template: '%s',
