@@ -9,6 +9,9 @@ const notoSansTC = Noto_Sans_TC({
 })
 
 export const metadata: Metadata = {
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+    : undefined,
   icons: {
     icon: '/favicon.png',
     apple: '/favicon.png',
@@ -35,6 +38,7 @@ export default function RootLayout({
   return (
     <html lang="zh-TW">
       <head>
+        <meta name="google-adsense-account" content="ca-pub-9393445902203358" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9393445902203358"

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://twholiday.pages.dev/sitemap.xml
