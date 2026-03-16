@@ -2,7 +2,7 @@
   "meta": {
     "source": "行政院人事行政總處政府行政機關辦公日曆表",
     "lastUpdated": "2026-03-16",
-    "updateNote": "2027 年為預測資料，實際以行政院公告為準。可透過 scripts/fetch_holidays.py 或 AI 爬蟲腳本監控行政院公告自動更新此檔。"
+    "updateNote": "實際以行政院公告為準。"
   },
   "year_meta": {
     "2023": {

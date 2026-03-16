@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useMemo } from 'react'
 import type { HolidaysData } from '@/src/types/holiday'
 import { YearSwitcher } from './YearSwitcher'
 import { SectionNav } from './SectionNav'
@@ -11,30 +11,22 @@ import { SourceFooter } from './SourceFooter'
 
 interface HolidayPageContentProps {
   data: HolidaysData
+  initialYear: string
 }
 
-function getDefaultYear(years: string[]): string {
-  const current = String(new Date().getFullYear())
-  if (years.includes(current)) return current
-  return years[0] ?? '2026'
-}
-
-export function HolidayPageContent({ data }: HolidayPageContentProps) {
+export function HolidayPageContent({ data, initialYear }: HolidayPageContentProps) {
   const years = useMemo(
     () => Object.keys(data.years).sort(),
     [data.years]
   )
-  const [selectedYear, setSelectedYear] = useState(() => getDefaultYear(years))
+
+  const selectedYear = initialYear
   const holidays = data.years[selectedYear] ?? []
   const yearNum = parseInt(selectedYear, 10)
 
   return (
     <>
-      <YearSwitcher
-        years={years}
-        selectedYear={selectedYear}
-        onYearChange={setSelectedYear}
-      />
+      <YearSwitcher years={years} selectedYear={selectedYear} />
       <SectionNav />
       <div className="space-y-10 w-full min-w-0">
         <YearIntroSection year={selectedYear} holidays={holidays} yearMeta={data.year_meta[selectedYear]} />
