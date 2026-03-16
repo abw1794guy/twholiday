@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import { getAvailableYears, getHolidaysData } from '@/lib/getHolidays'
-import { AdBannerTop } from '@/src/components/AdSense'
+import { AdBannerTop, AdSidebar } from '@/src/components/AdSense'
 import { HolidayPageContent } from '@/src/components/HolidayPageContent'
 import { HeroSection } from '@/src/components/HeroSection'
 import { SchemaOrgJsonLd } from '@/src/components/SchemaOrgJsonLd'
@@ -44,10 +44,14 @@ export default function YearPage({ params }: YearPageProps) {
       <div className="min-h-screen bg-slate-50 text-slate-900 overflow-x-hidden">
         <AdBannerTop />
 
-        <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
-          <HeroSection />
-          <HolidayPageContent data={data} initialYear={year} />
-        </main>
+        <div className="flex justify-center gap-4 lg:gap-6 px-2 sm:px-4">
+          <AdSidebar position="left" />
+          <main className="max-w-4xl w-full min-w-0 px-2 sm:px-6 py-8">
+            <HeroSection />
+            <HolidayPageContent data={data} initialYear={year} />
+          </main>
+          <AdSidebar position="right" />
+        </div>
       </div>
     </>
   )

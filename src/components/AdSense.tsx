@@ -78,6 +78,50 @@ export function AdNativeTravel() {
   )
 }
 
+/** 左右側邊廣告（桌面版顯示，手機版隱藏；可設 NEXT_PUBLIC_ADS_SLOT_SIDE） */
+export function AdSidebar({ position }: { position: 'left' | 'right' }) {
+  const slotId = process.env.NEXT_PUBLIC_ADS_SLOT_SIDE || ''
+  const showAd = !!slotId
+
+  useEffect(() => {
+    if (showAd && typeof window !== 'undefined' && window.adsbygoogle) {
+      try {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch {}
+    }
+  }, [showAd])
+
+  const baseClass = `hidden lg:block w-[160px] xl:w-[200px] shrink-0 sticky top-24`
+  const posClass = position === 'left' ? 'order-first' : 'order-last'
+
+  if (!showAd) {
+    return (
+      <aside
+        className={`${baseClass} ${posClass} min-h-[250px] rounded-lg border border-slate-200 bg-slate-50 flex items-center justify-center text-slate-400 text-xs`}
+        aria-label={`${position === 'left' ? '左' : '右'}側廣告`}
+      >
+        廣告
+      </aside>
+    )
+  }
+
+  return (
+    <aside
+      className={`${baseClass} ${posClass} flex justify-center`}
+      aria-label={`${position === 'left' ? '左' : '右'}側廣告`}
+    >
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client={ADS_CLIENT}
+        data-ad-slot={slotId}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+    </aside>
+  )
+}
+
 /** 全域 AdSense Script（放在 layout） */
 export function AdSenseScript() {
   return (
