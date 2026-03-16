@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Noto_Sans_TC } from 'next/font/google'
-import { AdSenseScript } from '@/src/components/AdSense'
 import './globals.css'
 
 const notoSansTC = Noto_Sans_TC({
@@ -31,8 +30,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-TW">
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9393445902203358"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className={`${notoSansTC.variable} font-sans antialiased`}>
-        <AdSenseScript />
         {children}
       </body>
     </html>
