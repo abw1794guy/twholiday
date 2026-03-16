@@ -11,7 +11,7 @@ export function generateMetadata() {
   const yearNum = parseInt(defaultYear, 10)
   const rocYear = yearNum - 1911
   return {
-    title: `【${defaultYear}行事曆】人事行政總處中華民國${rocYear}年行事曆`,
+    title: `${defaultYear} 台灣最強請假攻略｜人事行政總處中華民國${rocYear}年行事曆`,
     description: `${defaultYear} 年台灣國定假日完整攻略：春節、清明、端午、中秋、國慶連假日期與請假策略，請 X 天休 Y 天、補班日整理與推薦行程。`,
     alternates: {
       canonical: `/${defaultYear}`,
