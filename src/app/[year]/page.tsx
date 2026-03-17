@@ -21,8 +21,8 @@ export function generateMetadata({ params }: YearPageProps) {
   const yearNum = parseInt(year, 10)
   const rocYear = yearNum - 1911
   
-  const title = `${year} 台灣最強請假攻略｜人事行政總處中華民國${rocYear}年行事曆`
-  const description = `${year} 年台灣國定假日完整攻略：春節、清明、端午、中秋、國慶連假日期與請假策略，請 X 天休 Y 天、補班日整理與推薦行程。`
+  const title = `${year} 行事曆與連假請假攻略｜人事行政總處中華民國${rocYear}年辦公日曆表`
+  const description = `最新 ${year} 年台灣行事曆與國定假日完整攻略：春節、清明、端午、中秋、國慶連假日期與請假策略，請 X 天休 Y 天、補班日整理與出國推薦行程。`
 
   return {
     title,

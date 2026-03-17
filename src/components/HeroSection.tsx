@@ -18,7 +18,7 @@ export function HeroSection({ year = '2026' }: HeroSectionProps) {
         />
       </div>
       <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
-        {year} 台灣最強請假攻略
+        {year} 台灣行事曆與請假攻略
       </h1>
       <p className="mt-2 text-lg text-amber-700 font-medium">免補班版</p>
       <p className="mt-4 text-slate-600 max-w-xl mx-auto leading-relaxed">
