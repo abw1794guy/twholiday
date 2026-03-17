@@ -27,7 +27,7 @@ export function SchemaOrgJsonLd({ data }: SchemaOrgJsonLdProps) {
     '@type': 'Dataset',
     name: '2026-2027 台灣國定假日請假攻略',
     description: data.meta.source + '，含連假日期與請假策略。',
-    url: 'https://taiwan.holiday.tw',
+    url: 'https://holiday.twtool.tw',
     dateModified: data.meta.lastUpdated,
     creator: {
       '@type': 'Organization',
@@ -36,7 +36,7 @@ export function SchemaOrgJsonLd({ data }: SchemaOrgJsonLdProps) {
     distribution: {
       '@type': 'DataDownload',
       encodingFormat: 'application/json',
-      contentUrl: 'https://taiwan.holiday.tw/data/holidays.json',
+      contentUrl: 'https://holiday.twtool.tw/data/holidays.json',
     },
   }
 
