@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Noto_Sans_TC } from 'next/font/google'
+import { GoogleAnalytics } from '@/src/components/GoogleAnalytics'
 import './globals.css'
 
 const notoSansTC = Noto_Sans_TC({
@@ -46,6 +47,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${notoSansTC.variable} font-sans antialiased`}>
+        <GoogleAnalytics />
         {children}
       </body>
     </html>

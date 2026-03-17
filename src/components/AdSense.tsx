@@ -1,14 +1,46 @@
 'use client'
 
 import Script from 'next/script'
-import { useEffect } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 const ADS_CLIENT = 'ca-pub-9393445902203358'
 
-/** 頂部橫幅廣告（可設 NEXT_PUBLIC_ADS_SLOT_BANNER 指定 slot，否則顯示佔位） */
+/** 監聽 ins.adsbygoogle 的 data-ad-status，僅在 filled 時顯示 */
+function useAdFilled(ref: React.RefObject<HTMLDivElement | null>) {
+  const [filled, setFilled] = useState(false)
+
+  useEffect(() => {
+    const container = ref.current
+    if (!container) return
+
+    const ins = container.querySelector('ins.adsbygoogle')
+    if (!ins) return
+
+    const observer = new MutationObserver(() => {
+      const status = ins.getAttribute('data-ad-status')
+      if (status === 'filled') setFilled(true)
+    })
+
+    observer.observe(ins, {
+      attributes: true,
+      attributeFilter: ['data-ad-status'],
+    })
+
+    // 若已存在 filled 狀態（例如 SSR 或快速載入）
+    if (ins.getAttribute('data-ad-status') === 'filled') setFilled(true)
+
+    return () => observer.disconnect()
+  }, [ref])
+
+  return filled
+}
+
+/** 頂部橫幅廣告（可設 NEXT_PUBLIC_ADS_SLOT_BANNER 指定 slot，否則隱藏） */
 export function AdBannerTop() {
   const slotId = process.env.NEXT_PUBLIC_ADS_SLOT_BANNER || ''
   const showAd = !!slotId
+  const containerRef = useRef<HTMLDivElement>(null)
+  const filled = useAdFilled(containerRef)
 
   useEffect(() => {
     if (showAd && typeof window !== 'undefined' && window.adsbygoogle) {
@@ -18,16 +50,14 @@ export function AdBannerTop() {
     }
   }, [showAd])
 
-  if (!showAd) {
-    return (
-      <div className="ad-banner-top w-full border-b border-slate-200 flex justify-center items-center py-2 min-h-[90px]">
-        {/* Auto Ads 會自動在此區域附近投放，或於 .env 設定 NEXT_PUBLIC_ADS_SLOT_BANNER 使用手動廣告單元 */}
-      </div>
-    )
-  }
+  if (!showAd) return null
 
   return (
-    <div className="ad-banner-top w-full border-b border-slate-200 flex justify-center items-center py-2 min-h-[90px]">
+    <div
+      ref={containerRef}
+      className="ad-banner-top w-full border-b border-slate-200 flex justify-center items-center py-2 min-h-[90px]"
+      style={{ display: filled ? 'flex' : 'none' }}
+    >
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
@@ -44,6 +74,8 @@ export function AdBannerTop() {
 export function AdNativeTravel() {
   const slotId = process.env.NEXT_PUBLIC_ADS_SLOT_NATIVE || ''
   const showAd = !!slotId
+  const containerRef = useRef<HTMLDivElement>(null)
+  const filled = useAdFilled(containerRef)
 
   useEffect(() => {
     if (showAd && typeof window !== 'undefined' && window.adsbygoogle) {
@@ -53,19 +85,15 @@ export function AdNativeTravel() {
     }
   }, [showAd])
 
-  if (!showAd) {
-    return (
-      <div
-        className="ad-native-travel rounded-lg flex items-center justify-center text-slate-400 text-xs py-4"
-        aria-label="贊助商內容"
-      >
-        贊助商內容：推薦行程
-      </div>
-    )
-  }
+  if (!showAd) return null
 
   return (
-    <div className="ad-native-travel rounded-lg overflow-hidden" aria-label="贊助商內容">
+    <div
+      ref={containerRef}
+      className="ad-native-travel rounded-lg overflow-hidden"
+      aria-label="贊助商內容"
+      style={{ display: filled ? 'block' : 'none' }}
+    >
       <ins
         className="adsbygoogle"
         style={{ display: 'block', textAlign: 'center' }}
@@ -82,6 +110,8 @@ export function AdNativeTravel() {
 export function AdSidebar({ position }: { position: 'left' | 'right' }) {
   const slotId = process.env.NEXT_PUBLIC_ADS_SLOT_SIDE || ''
   const showAd = !!slotId
+  const containerRef = useRef<HTMLDivElement>(null)
+  const filled = useAdFilled(containerRef)
 
   useEffect(() => {
     if (showAd && typeof window !== 'undefined' && window.adsbygoogle) {
@@ -94,21 +124,14 @@ export function AdSidebar({ position }: { position: 'left' | 'right' }) {
   const baseClass = `hidden lg:block w-[160px] xl:w-[200px] shrink-0 sticky top-24`
   const posClass = position === 'left' ? 'order-first' : 'order-last'
 
-  if (!showAd) {
-    return (
-      <aside
-        className={`${baseClass} ${posClass} min-h-[250px] rounded-lg border border-slate-200 bg-slate-50 flex items-center justify-center text-slate-400 text-xs`}
-        aria-label={`${position === 'left' ? '左' : '右'}側廣告`}
-      >
-        廣告
-      </aside>
-    )
-  }
+  if (!showAd) return null
 
   return (
     <aside
+      ref={containerRef}
       className={`${baseClass} ${posClass} flex justify-center`}
       aria-label={`${position === 'left' ? '左' : '右'}側廣告`}
+      style={{ display: filled ? 'flex' : 'none' }}
     >
       <ins
         className="adsbygoogle"

@@ -22,12 +22,12 @@
       "note": "2024 年為歷史資料，已依官方行政院公告整理。"
     },
     "2025": {
-      "status": "historical",
-      "announcement": "行政院人事行政總處已公布（歷史資料）",
+      "status": "official",
+      "announcement": "行政院人事行政總處已正式公告",
       "longestHolidayName": "春節",
-      "longestHolidayDays": 11,
+      "longestHolidayDays": 9,
       "bestTrickLeaveDays": 0,
-      "note": "2025 年為歷史資料，已依官方行政院公告整理。"
+      "note": "2025 年資料依行政院人事行政總處官方公告。"
     },
     "2026": {
       "status": "official",
@@ -252,7 +252,11 @@
         "isSingleDay": false,
         "makeUpWorkNote": "1/1（日）元旦，補假 1/2（一），共 2 天；12/31（六）可一併休息",
         "best_leave_plan": "免請假：12/31（六，前年）-1/2（一）連休 3 天",
-        "travel_suggestions": ["台北 101 跨年煙火隔天慢遊", "礁溪溫泉新年泡湯", "高雄愛河元旦夜遊"]
+        "travel_suggestions": [
+          "台北 101 跨年煙火隔天慢遊",
+          "礁溪溫泉新年泡湯",
+          "高雄愛河元旦夜遊"
+        ]
       },
       {
         "id": "lunar-new-year-2023",
@@ -264,7 +268,12 @@
         "isSingleDay": false,
         "makeUpWorkNote": "1/27（五）補班，連續放假 7 天（1/20 五～1/26 四）",
         "best_leave_plan": "免請假：1/20（五）-1/26（四）連休 7 天（初一 1/22 日）",
-        "travel_suggestions": ["日本北海道雪祭（二月登場）提前出發", "泰國清邁文化祭典", "越南峴港冬日海灘", "國內花蓮溫泉環島"]
+        "travel_suggestions": [
+          "日本北海道雪祭（二月登場）提前出發",
+          "泰國清邁文化祭典",
+          "越南峴港冬日海灘",
+          "國內花蓮溫泉環島"
+        ]
       },
       {
         "id": "peace-memorial-2023",
@@ -276,7 +285,12 @@
         "isSingleDay": false,
         "makeUpWorkNote": "2/28（二）228 紀念日，請 2/27（一）假可連假 4 天",
         "best_leave_plan": "請 1 天休 4 天：2/27（一）請假 → 2/25（六）-2/28（二）",
-        "travel_suggestions": ["陽明山杜鵑花季早春踏青", "小琉球浮潛珊瑚礁", "阿里山賞梅步道", "港澳三天兩夜輕旅行"]
+        "travel_suggestions": [
+          "陽明山杜鵑花季早春踏青",
+          "小琉球浮潛珊瑚礁",
+          "阿里山賞梅步道",
+          "港澳三天兩夜輕旅行"
+        ]
       },
       {
         "id": "qingming-2023",
@@ -288,7 +302,12 @@
         "isSingleDay": false,
         "makeUpWorkNote": "4/4（二）兒童節、4/5（三）清明節，請 4/3（一）假可連假 5 天",
         "best_leave_plan": "請 1 天休 5 天：4/3（一）請假 → 4/1（六）-4/5（三）",
-        "travel_suggestions": ["日本東京、大阪賞櫻（染井吉野盛開）", "花東縱谷油菜花田", "阿里山鐵路賞花", "北海道仍可賞雪"]
+        "travel_suggestions": [
+          "日本東京、大阪賞櫻（染井吉野盛開）",
+          "花東縱谷油菜花田",
+          "阿里山鐵路賞花",
+          "北海道仍可賞雪"
+        ]
       },
       {
         "id": "labor-day-2023",
@@ -300,7 +319,12 @@
         "isSingleDay": false,
         "makeUpWorkNote": "5/1（一）勞動節，連同週末共 3 天；僅限勞工適用，公務員不放假",
         "best_leave_plan": "免請假：4/29（六）-5/1（一）連休 3 天",
-        "travel_suggestions": ["峇里島度假短線（假日最旺）", "南台灣墾丁浮潛", "宜蘭龜山島賞鯨豚", "南投日月潭環湖"]
+        "travel_suggestions": [
+          "峇里島度假短線（假日最旺）",
+          "南台灣墾丁浮潛",
+          "宜蘭龜山島賞鯨豚",
+          "南投日月潭環湖"
+        ]
       },
       {
         "id": "dragon-boat-2023",
@@ -312,7 +336,12 @@
         "isSingleDay": false,
         "makeUpWorkNote": "6/22（四）端午節，請 6/23（五）假可連假 4 天",
         "best_leave_plan": "請 1 天休 4 天：6/23（五）請假 → 6/22（四）-6/25（日）",
-        "travel_suggestions": ["澎湖藍洞浮潛（夏季旺季）", "綠島夜光浮游生物", "花蓮七星潭礫石海灘", "沖繩海島輕旅行"]
+        "travel_suggestions": [
+          "澎湖藍洞浮潛（夏季旺季）",
+          "綠島夜光浮游生物",
+          "花蓮七星潭礫石海灘",
+          "沖繩海島輕旅行"
+        ]
       },
       {
         "id": "mid-autumn-2023",
@@ -324,7 +353,12 @@
         "isSingleDay": false,
         "makeUpWorkNote": "9/29（五）中秋節，天然連假至週末，共 3 天",
         "best_leave_plan": "免請假：9/29（五）-10/1（日）連休 3 天",
-        "travel_suggestions": ["阿里山中秋賞月（高山月色）", "日月潭仲秋泛舟", "花蓮縱谷賞星夜烤肉", "日本秋楓先行（北海道）"]
+        "travel_suggestions": [
+          "阿里山中秋賞月（高山月色）",
+          "日月潭仲秋泛舟",
+          "花蓮縱谷賞星夜烤肉",
+          "日本秋楓先行（北海道）"
+        ]
       },
       {
         "id": "national-day-2023",
@@ -336,7 +370,12 @@
         "isSingleDay": false,
         "makeUpWorkNote": "10/10（二）國慶日，請 10/9（一）假可連假 4 天",
         "best_leave_plan": "請 1 天休 4 天：10/9（一）請假 → 10/7（六）-10/10（二）",
-        "travel_suggestions": ["台北圓山國慶煙火", "合歡山楓葉季（10 月轉色）", "日本日光、奈良楓葉", "韓國雪嶽山楓葉"]
+        "travel_suggestions": [
+          "台北圓山國慶煙火",
+          "合歡山楓葉季（10 月轉色）",
+          "日本日光、奈良楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       },
       {
         "id": "retrocession-2023",
@@ -348,7 +387,11 @@
         "isSingleDay": true,
         "makeUpWorkNote": "10/25（三）光復節，落於週三，無天然連假",
         "best_leave_plan": "請 2 天休 5 天：10/23（一）＋10/24（二）請假 → 10/21（六）-10/25（三）",
-        "travel_suggestions": ["合歡山楓葉盛期", "大雪山國家森林秋楓", "東部秋收縱谷稻田金黃"]
+        "travel_suggestions": [
+          "合歡山楓葉盛期",
+          "大雪山國家森林秋楓",
+          "東部秋收縱谷稻田金黃"
+        ]
       },
       {
         "id": "constitution-2023",
@@ -360,7 +403,12 @@
         "isSingleDay": false,
         "makeUpWorkNote": "12/25（一）行憲紀念日，連同週末共 3 天",
         "best_leave_plan": "免請假：12/23（六）-12/25（一）聖誕連假 3 天",
-        "travel_suggestions": ["歐洲聖誕市集（德國、奧地利）", "日本東京跨年準備", "北投溫泉聖誕泡湯", "台北信義區聖誕燈海"]
+        "travel_suggestions": [
+          "歐洲聖誕市集（德國、奧地利）",
+          "日本東京跨年準備",
+          "北投溫泉聖誕泡湯",
+          "台北信義區聖誕燈海"
+        ]
       }
     ],
     "2024": [
@@ -368,13 +416,17 @@
         "id": "new-year-2024",
         "name": "元旦",
         "nameEn": "New Year's Day",
-        "dateStart": "2024-01-01",
+        "dateStart": "2023-12-30",
         "dateEnd": "2024-01-01",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "1/1（一）元旦，天然連接 12/30-31 週末，共 3 天",
-        "best_leave_plan": "免請假：12/30（六）-1/1（一）連休 3 天",
-        "travel_suggestions": ["日本跨年初詣（明治神宮）", "沖繩海島新年輕旅行", "台北 101 跨年煙火"]
+        "makeUpWorkNote": "2024/1/1 元旦，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北 101 跨年煙火",
+          "礁溪溫泉新年泡湯",
+          "日本跨年初詣"
+        ]
       },
       {
         "id": "lunar-new-year-2024",
@@ -384,9 +436,13 @@
         "dateEnd": "2024-02-14",
         "days": 7,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/17（六）補班，連續放假 7 天（2/8 四～2/14 三，初一 2/10 六）",
-        "best_leave_plan": "免請假：2/8（四）-2/14（三）連休 7 天（龍年春節）",
-        "travel_suggestions": ["日本北海道雪祭（札幌，2 月初）", "泰國清邁文化節", "峇里島度假村", "越南峴港、會安古城"]
+        "makeUpWorkNote": "農曆春節連休 7 天",
+        "best_leave_plan": "免請假：連休 7 天",
+        "travel_suggestions": [
+          "日本北海道雪祭",
+          "東南亞避寒度假",
+          "歐洲冬季旅遊"
+        ]
       },
       {
         "id": "peace-memorial-2024",
@@ -396,9 +452,13 @@
         "dateEnd": "2024-02-28",
         "days": 1,
         "isSingleDay": true,
-        "makeUpWorkNote": "2/28（三）228 紀念日，落於週三，無天然連假",
-        "best_leave_plan": "請 1 天休 4 天：2/27（二）請假 → 2/24（六）-2/28（三）；或 2/29（四）請假 → 2/28（三）-3/3（日）",
-        "travel_suggestions": ["陽明山花季（杜鵑、海芋）", "阿里山梅花賞花步道", "小琉球早春浮潛"]
+        "makeUpWorkNote": "2/28 紀念日，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "阿里山櫻花季",
+          "小琉球浮潛",
+          "陽明山海芋季"
+        ]
       },
       {
         "id": "qingming-2024",
@@ -408,9 +468,13 @@
         "dateEnd": "2024-04-07",
         "days": 4,
         "isSingleDay": false,
-        "makeUpWorkNote": "4/4（四）兒童節與清明節同日，補假 4/5（五），共 4 天連假",
-        "best_leave_plan": "免請假：4/4（四）-4/7（日）連休 4 天（兩節同日補假）",
-        "travel_suggestions": ["日本賞櫻（東京上野、京都哲學之道）", "荷蘭庫肯霍夫鬱金香（4 月盛開）", "花東縱谷賞花自行車", "太魯閣峽谷健行"]
+        "makeUpWorkNote": "清明連假共 4 天",
+        "best_leave_plan": "免請假：連休 4 天",
+        "travel_suggestions": [
+          "日本賞櫻",
+          "荷蘭庫肯霍夫鬱金香",
+          "花東縱谷春遊"
+        ]
       },
       {
         "id": "labor-day-2024",
@@ -420,9 +484,13 @@
         "dateEnd": "2024-05-01",
         "days": 1,
         "isSingleDay": true,
-        "makeUpWorkNote": "5/1（三）勞動節，落於週三；僅限勞工適用，公務員不放假",
-        "best_leave_plan": "請 2 天休 5 天：4/30（二）＋5/2（四）請假 → 4/27（六）-5/1（三）",
-        "travel_suggestions": ["東南亞輕旅（泰國、馬來西亞）", "韓國首爾薔薇花季", "澳門美食文化小旅行"]
+        "makeUpWorkNote": "5/1 勞動節，無連假（僅適用勞工）",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "東南亞輕旅",
+          "韓國首爾玫瑰花節",
+          "台灣近郊放鬆"
+        ]
       },
       {
         "id": "dragon-boat-2024",
@@ -432,57 +500,45 @@
         "dateEnd": "2024-06-10",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "6/10（一）端午節，連同週末共 3 天",
-        "best_leave_plan": "免請假：6/8（六）-6/10（一）連休 3 天",
-        "travel_suggestions": ["沖繩夏季海島潛水", "澎湖藍洞浮潛旺季", "宜蘭蘇澳冷泉＋龜山島", "日本祭典季準備"]
+        "makeUpWorkNote": "端午節，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "澎湖藍洞浮潛",
+          "綠島夜光浮游生物",
+          "沖繩夏日海島"
+        ]
       },
       {
         "id": "mid-autumn-2024",
         "name": "中秋節",
         "nameEn": "Mid-Autumn Festival",
-        "dateStart": "2024-09-14",
+        "dateStart": "2024-09-17",
         "dateEnd": "2024-09-17",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "9/17（二）中秋節，請 9/16（一）假可連假 4 天",
-        "best_leave_plan": "請 1 天休 4 天：9/16（一）請假 → 9/14（六）-9/17（二）",
-        "travel_suggestions": ["日本關西賞秋（京都、奈良）", "阿里山中秋賞月", "加拿大楓葉季先行", "花蓮縱谷稻田金黃"]
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "中秋節，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "北海道大雪山楓葉",
+          "阿里山賞月",
+          "加拿大楓葉季"
+        ]
       },
       {
         "id": "national-day-2024",
         "name": "國慶日",
         "nameEn": "National Day",
         "dateStart": "2024-10-10",
-        "dateEnd": "2024-10-13",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/10（四）國慶日，請 10/11（五）假可連假 4 天",
-        "best_leave_plan": "請 1 天休 4 天：10/11（五）請假 → 10/10（四）-10/13（日）",
-        "travel_suggestions": ["台北國慶煙火（信義區）", "日本東北楓葉（奧入瀨溪）", "韓國雪嶽山楓葉全盛期"]
-      },
-      {
-        "id": "retrocession-2024",
-        "name": "台灣光復節",
-        "nameEn": "Taiwan Retrocession Day",
-        "dateStart": "2024-10-25",
-        "dateEnd": "2024-10-27",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/25（五）光復節，天然連假至週末，共 3 天",
-        "best_leave_plan": "免請假：10/25（五）-10/27（日）連休 3 天",
-        "travel_suggestions": ["日本京都楓葉（嵐山・東福寺）", "合歡山楓葉秘境", "大雪山國家森林步道"]
-      },
-      {
-        "id": "constitution-2024",
-        "name": "行憲紀念日",
-        "nameEn": "Constitution Day",
-        "dateStart": "2024-12-25",
-        "dateEnd": "2024-12-25",
+        "dateEnd": "2024-10-10",
         "days": 1,
         "isSingleDay": true,
-        "makeUpWorkNote": "12/25（三）行憲紀念日，落於週三，無天然連假",
-        "best_leave_plan": "請 1 天休 4 天：12/24（二）請假 → 12/21（六）-12/25（三）；或 12/26（四）請假 → 12/25（三）-12/29（日）",
-        "travel_suggestions": ["歐洲聖誕市集（布拉格、維也納）", "日本東京聖誕燈飾", "台北信義區聖誕裝置藝術"]
+        "makeUpWorkNote": "國慶日，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "台北國慶煙火",
+          "日本關西楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       }
     ],
     "2025": [
@@ -494,21 +550,29 @@
         "dateEnd": "2025-01-01",
         "days": 1,
         "isSingleDay": true,
-        "makeUpWorkNote": "1/1（三）元旦，落於週三，無天然連假",
-        "best_leave_plan": "請 2 天休 5 天：12/30（一）＋12/31（二）請假 → 12/28（六）-1/1（三）",
-        "travel_suggestions": ["台北 101 跨年煙火（前一天到位）", "礁溪溫泉新年泡湯", "日本跨年初詣（明治神宮）"]
+        "makeUpWorkNote": "2025/1/1 元旦，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "台北 101 跨年煙火",
+          "礁溪溫泉新年泡湯",
+          "日本跨年初詣"
+        ]
       },
       {
         "id": "lunar-new-year-2025",
         "name": "春節",
         "nameEn": "Lunar New Year",
         "dateStart": "2025-01-25",
-        "dateEnd": "2025-02-04",
-        "days": 11,
+        "dateEnd": "2025-02-02",
+        "days": 9,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/8（六）補班（官方公告），連假 11 天（1/25 六～2/4 二，初一 1/29 三）",
-        "best_leave_plan": "免請假：1/25（六）-2/4（二）連休 11 天，史上超長蛇年春節！",
-        "travel_suggestions": ["日本九州長崎（春節燈會全球知名）", "歐洲冬季城市（巴黎、維也納票價淡季）", "紐西蘭、澳洲南半球仲夏", "東南亞峇里島、普吉島頂級度假村", "國內花東、南台灣暖冬慢旅"]
+        "makeUpWorkNote": "農曆春節連休 9 天",
+        "best_leave_plan": "免請假：連休 9 天",
+        "travel_suggestions": [
+          "日本北海道雪祭",
+          "東南亞避寒度假",
+          "歐洲冬季旅遊"
+        ]
       },
       {
         "id": "peace-memorial-2025",
@@ -518,45 +582,61 @@
         "dateEnd": "2025-03-02",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/28（五）228 紀念日，天然連假至週末，共 3 天",
-        "best_leave_plan": "免請假：2/28（五）-3/2（日）連休 3 天；可加請 2/27（四）延伸為 4 天",
-        "travel_suggestions": ["阿里山吉野櫻（2 月末～3 月初）", "小琉球浮潛珊瑚礁", "陽明山竹子湖海芋季", "日本九州梅花賞花（大宰府天滿宮）"]
+        "makeUpWorkNote": "2/28 紀念日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "阿里山櫻花季",
+          "小琉球浮潛",
+          "陽明山海芋季"
+        ]
       },
       {
         "id": "qingming-2025",
-        "name": "清明節",
-        "nameEn": "Qingming Festival",
-        "dateStart": "2025-04-04",
+        "name": "兒童節／清明節",
+        "nameEn": "Children's Day & Qingming",
+        "dateStart": "2025-04-03",
         "dateEnd": "2025-04-06",
-        "days": 3,
+        "days": 4,
         "isSingleDay": false,
-        "makeUpWorkNote": "4/4（五）清明節，天然連假至週末，共 3 天；可加請 4/3（四）延伸為 4 天",
-        "best_leave_plan": "免請假：4/4（五）-4/6（日）連休 3 天；請 4/3（四）可連休 4 天",
-        "travel_suggestions": ["日本東京、大阪賞櫻（染井吉野盛開）", "荷蘭庫肯霍夫鬱金香公園", "花東縱谷油菜花田", "太魯閣峽谷健行"]
+        "makeUpWorkNote": "清明連假共 4 天",
+        "best_leave_plan": "免請假：連休 4 天",
+        "travel_suggestions": [
+          "日本賞櫻",
+          "荷蘭庫肯霍夫鬱金香",
+          "花東縱谷春遊"
+        ]
       },
       {
         "id": "labor-day-2025",
         "name": "勞動節",
         "nameEn": "Labor Day",
         "dateStart": "2025-05-01",
-        "dateEnd": "2025-05-04",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "5/1（四）勞動節，請 5/2（五）假可連假 4 天；僅限勞工適用",
-        "best_leave_plan": "請 1 天休 4 天：5/2（五）請假 → 5/1（四）-5/4（日）",
-        "travel_suggestions": ["東南亞 5 天輕旅（泰國、馬來西亞）", "韓國首爾薔薇花季", "日本輕井澤初夏微涼", "花蓮海洋公園＋七星潭"]
+        "dateEnd": "2025-05-01",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "5/1 勞動節，無連假（僅適用勞工）",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "東南亞輕旅",
+          "韓國首爾玫瑰花節",
+          "台灣近郊放鬆"
+        ]
       },
       {
         "id": "dragon-boat-2025",
         "name": "端午節",
         "nameEn": "Dragon Boat Festival",
-        "dateStart": "2025-05-31",
-        "dateEnd": "2025-06-02",
+        "dateStart": "2025-05-30",
+        "dateEnd": "2025-06-01",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "5/31（六）端午節，補假 6/2（一），共 3 天連假",
-        "best_leave_plan": "免請假：5/31（六）-6/2（一）連休 3 天",
-        "travel_suggestions": ["澎湖藍洞浮潛（夏季最旺）", "綠島夜光浮游生物體驗", "小琉球玻璃船賞珊瑚", "屏東後壁湖海鮮"]
+        "makeUpWorkNote": "端午節，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "澎湖藍洞浮潛",
+          "綠島夜光浮游生物",
+          "沖繩夏日海島"
+        ]
       },
       {
         "id": "mid-autumn-2025",
@@ -566,9 +646,13 @@
         "dateEnd": "2025-10-06",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "10/6（一）中秋節，連同週末共 3 天",
-        "best_leave_plan": "免請假：10/4（六）-10/6（一）連休 3 天",
-        "travel_suggestions": ["阿里山奮起湖賞月", "日月潭仲秋泛舟", "北海道大雪山楓葉先行", "加拿大魁北克楓葉季"]
+        "makeUpWorkNote": "中秋節，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "北海道大雪山楓葉",
+          "阿里山賞月",
+          "加拿大楓葉季"
+        ]
       },
       {
         "id": "national-day-2025",
@@ -578,33 +662,13 @@
         "dateEnd": "2025-10-12",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "10/10（五）國慶日，天然連假至週末，共 3 天",
-        "best_leave_plan": "免請假：10/10（五）-10/12（日）連休 3 天",
-        "travel_suggestions": ["台北國慶煙火", "日本東北楓葉（仙台、松島）", "韓國雪嶽山楓葉旺季"]
-      },
-      {
-        "id": "retrocession-2025",
-        "name": "台灣光復節",
-        "nameEn": "Taiwan Retrocession Day",
-        "dateStart": "2025-10-25",
-        "dateEnd": "2025-10-27",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/25（六）光復節，補假 10/27（一），共 3 天連假",
-        "best_leave_plan": "免請假：10/25（六）-10/27（一）連休 3 天",
-        "travel_suggestions": ["京都東福寺楓葉（10 月末轉紅）", "合歡山大雪山秋楓", "花東縱谷秋收農遊"]
-      },
-      {
-        "id": "constitution-2025",
-        "name": "行憲紀念日",
-        "nameEn": "Constitution Day",
-        "dateStart": "2025-12-25",
-        "dateEnd": "2025-12-28",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "12/25（四）行憲紀念日，請 12/26（五）假可連假 4 天",
-        "best_leave_plan": "請 1 天休 4 天：12/26（五）請假 → 12/25（四）-12/28（日）聖誕連假",
-        "travel_suggestions": ["歐洲聖誕市集（德國紐倫堡、維也納）", "日本大阪・東京聖誕燈飾", "台北信義區聖誕裝置藝術"]
+        "makeUpWorkNote": "國慶日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北國慶煙火",
+          "日本關西楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       }
     ],
     "2026": [
@@ -613,24 +677,32 @@
         "name": "元旦",
         "nameEn": "New Year's Day",
         "dateStart": "2026-01-01",
-        "dateEnd": "2026-01-04",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "1/1（四）元旦，請 1/2（五）假可連休 4 天；1/2 為上班日需請假",
-        "best_leave_plan": "請 1 天休 4 天：1/2（五）請假 → 1/1（四）-1/4（日）",
-        "travel_suggestions": ["台北 101 跨年煙火＋夜遊", "礁溪溫泉新年泡湯", "日月潭跨年迎曙光", "北海道新年初詣"]
+        "dateEnd": "2026-01-01",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "2026/1/1 元旦，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "台北 101 跨年煙火",
+          "礁溪溫泉新年泡湯",
+          "日本跨年初詣"
+        ]
       },
       {
         "id": "lunar-new-year-2026",
         "name": "春節",
         "nameEn": "Lunar New Year",
-        "dateStart": "2026-02-15",
-        "dateEnd": "2026-02-23",
+        "dateStart": "2026-02-14",
+        "dateEnd": "2026-02-22",
         "days": 9,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/14（六）補班、2/24（二）補班，依人事總處公告為準",
-        "best_leave_plan": "免請假：2/15（日小年夜）-2/23（一初六）連休 9 天",
-        "travel_suggestions": ["日本京阪神賞雪泡湯（淡季優惠）", "沖繩離島陽光海灘", "泰國清邁文化祭典", "越南峴港海島悠閒", "國內花蓮溫泉環島"]
+        "makeUpWorkNote": "農曆春節連休 9 天",
+        "best_leave_plan": "免請假：連休 9 天",
+        "travel_suggestions": [
+          "日本北海道雪祭",
+          "東南亞避寒度假",
+          "歐洲冬季旅遊"
+        ]
       },
       {
         "id": "peace-memorial-2026",
@@ -640,21 +712,29 @@
         "dateEnd": "2026-03-01",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/28（六）為 228 紀念日，補假於前一工作日 2/27（五）",
-        "best_leave_plan": "免請假：2/27（五補假）-3/1（日）連休 3 天",
-        "travel_suggestions": ["陽明山花季（杜鵑、海芋起跑）", "小琉球浮潛珊瑚礁", "澎湖菊島早春旅遊", "中部梅花、李花踏青"]
+        "makeUpWorkNote": "2/28 紀念日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "阿里山櫻花季",
+          "小琉球浮潛",
+          "陽明山海芋季"
+        ]
       },
       {
         "id": "qingming-2026",
         "name": "兒童節／清明節",
         "nameEn": "Children's Day & Qingming",
-        "dateStart": "2026-04-02",
-        "dateEnd": "2026-04-05",
+        "dateStart": "2026-04-03",
+        "dateEnd": "2026-04-06",
         "days": 4,
         "isSingleDay": false,
-        "makeUpWorkNote": "4/4（六）兒童節與清明同日，依規定補假 4/2（四）、4/3（五），共 4 天連假",
-        "best_leave_plan": "免請假：4/2（四）-4/5（日）連休 4 天",
-        "travel_suggestions": ["日本東京、大阪賞櫻（滿開時節）", "花東縱谷油菜花田", "北中部桐花季踏青", "太魯閣峽谷健行", "墾丁春吶音樂祭"]
+        "makeUpWorkNote": "清明連假共 4 天",
+        "best_leave_plan": "免請假：連休 4 天",
+        "travel_suggestions": [
+          "日本賞櫻",
+          "荷蘭庫肯霍夫鬱金香",
+          "花東縱谷春遊"
+        ]
       },
       {
         "id": "labor-day-2026",
@@ -664,33 +744,45 @@
         "dateEnd": "2026-05-03",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "5/1（五）勞動節，連休至週末；僅限勞工適用，公務員不放假",
-        "best_leave_plan": "免請假：5/1（五）-5/3（日）連休 3 天；可加請 4/30（四）延伸為 4 天",
-        "travel_suggestions": ["澳門美食文化小旅行（短途 2 小時）", "南台灣墾丁浮潛衝浪", "宜蘭龜山島賞鯨豚", "嘉義阿里山賞霧賞茶"]
+        "makeUpWorkNote": "5/1 勞動節，連休 3 天（僅適用勞工）",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "東南亞輕旅",
+          "韓國首爾玫瑰花節",
+          "台灣近郊放鬆"
+        ]
       },
       {
         "id": "dragon-boat-2026",
         "name": "端午節",
         "nameEn": "Dragon Boat Festival",
-        "dateStart": "2026-05-28",
-        "dateEnd": "2026-05-31",
-        "days": 4,
+        "dateStart": "2026-06-19",
+        "dateEnd": "2026-06-21",
+        "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "5/30（六）端午節，補假 5/28（四）及 5/29（五），連假共 4 天",
-        "best_leave_plan": "免請假：5/28（四）-5/31（日）連休 4 天",
-        "travel_suggestions": ["澎湖藍洞浮潛（夏季最旺）", "小琉球玻璃船賞珊瑚", "綠島夜光浮游生物體驗", "花蓮七星潭礫石海灘", "屏東後壁湖海鮮饗宴"]
+        "makeUpWorkNote": "端午節，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "澎湖藍洞浮潛",
+          "綠島夜光浮游生物",
+          "沖繩夏日海島"
+        ]
       },
       {
         "id": "mid-autumn-2026",
-        "name": "中秋節／教師節",
-        "nameEn": "Mid-Autumn Festival & Teachers' Day",
+        "name": "中秋節",
+        "nameEn": "Mid-Autumn Festival",
         "dateStart": "2026-09-25",
-        "dateEnd": "2026-09-28",
-        "days": 4,
+        "dateEnd": "2026-09-27",
+        "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "9/25（五）為中秋補假，9/28（一）教師節，共 4 天連假",
-        "best_leave_plan": "請 1 天休 5 天：9/24（四）請假 → 9/24-9/28 連休 5 天",
-        "travel_suggestions": ["阿里山奮起湖賞月（最佳賞月點）", "日月潭仲秋月色泛舟", "花蓮縱谷賞星夜烤肉", "東北角鹽寮海岸秋遊"]
+        "makeUpWorkNote": "中秋節，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "北海道大雪山楓葉",
+          "阿里山賞月",
+          "加拿大楓葉季"
+        ]
       },
       {
         "id": "national-day-2026",
@@ -700,33 +792,13 @@
         "dateEnd": "2026-10-11",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "10/10（六）國慶日，補假 10/9（五），共 3 天連假",
-        "best_leave_plan": "免請假：10/9（五）-10/11（日）連休 3 天",
-        "travel_suggestions": ["台北圓山國慶煙火", "合歡山楓葉季（10 月轉色）", "宜蘭東北角秋蟹季", "高雄愛河國慶夜景"]
-      },
-      {
-        "id": "retrocession-2026",
-        "name": "台灣光復節",
-        "nameEn": "Taiwan Retrocession Day",
-        "dateStart": "2026-10-24",
-        "dateEnd": "2026-10-26",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/25（日）光復節，補假次一工作日 10/26（一），共 3 天連假",
-        "best_leave_plan": "免請假：10/24（六）-10/26（一）連休 3 天",
-        "travel_suggestions": ["合歡山楓葉盛期（10 月下旬最紅）", "金門戰地文化騎車巡禮", "馬祖南竿藍眼淚秋季（夜光甲藻）", "大雪山國家森林秋楓"]
-      },
-      {
-        "id": "constitution-2026",
-        "name": "行憲紀念日",
-        "nameEn": "Constitution Day",
-        "dateStart": "2026-12-25",
-        "dateEnd": "2026-12-27",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "12/25（五）行憲紀念日，連休週末共 3 天",
-        "best_leave_plan": "免請假：12/25（五）-12/27（日）連休 3 天；可加請 12/24（四）延伸為 4 天迎聖誕跨年",
-        "travel_suggestions": ["台北信義區聖誕市集燈海", "九份老街雨夜浪漫", "北投溫泉聖誕泡湯", "出發跨年海外旅遊（日本跨年、倒數活動）"]
+        "makeUpWorkNote": "國慶日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北國慶煙火",
+          "日本關西楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       }
     ],
     "2027": [
@@ -738,21 +810,29 @@
         "dateEnd": "2027-01-03",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "1/1（五）元旦，天然連假至週末，共 3 天",
-        "best_leave_plan": "免請假：1/1（五）-1/3（日）連休 3 天",
-        "travel_suggestions": ["台北 101 跨年煙火＋隔天悠閒遊", "礁溪溫泉新年泡湯", "日月潭新年迎曙光"]
+        "makeUpWorkNote": "2027/1/1 元旦，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北 101 跨年煙火",
+          "礁溪溫泉新年泡湯",
+          "日本跨年初詣"
+        ]
       },
       {
         "id": "lunar-new-year-2027",
         "name": "春節",
         "nameEn": "Lunar New Year",
-        "dateStart": "2027-02-05",
-        "dateEnd": "2027-02-13",
-        "days": 9,
+        "dateStart": "2027-02-04",
+        "dateEnd": "2027-02-10",
+        "days": 7,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/5（五）除夕起放假，2/13（六）預估為補班日，依行政院公告為準",
-        "best_leave_plan": "免請假：2/5（五除夕）-2/13（六初六）連休 9 天，最適合海外長線旅遊",
-        "travel_suggestions": ["日本東北雪祭（秋田、札幌）", "歐洲冬季城市（巴黎、維也納淡季優惠）", "紐西蘭、澳洲南半球夏季", "東南亞峇里島、普吉島海島", "國內花東、南台灣暖冬旅遊"]
+        "makeUpWorkNote": "農曆春節連休 7 天",
+        "best_leave_plan": "免請假：連休 7 天",
+        "travel_suggestions": [
+          "日本北海道雪祭",
+          "東南亞避寒度假",
+          "歐洲冬季旅遊"
+        ]
       },
       {
         "id": "peace-memorial-2027",
@@ -762,21 +842,45 @@
         "dateEnd": "2027-03-01",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/28（日）228 紀念日，補假於次一工作日 3/1（一）",
-        "best_leave_plan": "免請假：2/27（六）-3/1（一）連休 3 天",
-        "travel_suggestions": ["阿里山櫻花季（2 月末～3 月初，吉野櫻盛開）", "小琉球早春浮潛", "陽明山竹子湖海芋季"]
+        "makeUpWorkNote": "2/28 紀念日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "阿里山櫻花季",
+          "小琉球浮潛",
+          "陽明山海芋季"
+        ]
       },
       {
         "id": "qingming-2027",
         "name": "兒童節／清明節",
         "nameEn": "Children's Day & Qingming",
-        "dateStart": "2027-04-03",
-        "dateEnd": "2027-04-06",
+        "dateStart": "2027-04-02",
+        "dateEnd": "2027-04-05",
         "days": 4,
         "isSingleDay": false,
-        "makeUpWorkNote": "4/4（日）兒童節，補假 4/6（二）；清明節 4/5（一）；共 4 天連假",
-        "best_leave_plan": "免請假：4/3（六）-4/6（二）連休 4 天，適合日本賞櫻短線",
-        "travel_suggestions": ["日本賞櫻尾聲（京都、奈良、仙台）", "港澳三天兩夜（無需簽證）", "花東縱谷自行車踏青", "太魯閣燕子口健行"]
+        "makeUpWorkNote": "清明連假共 4 天",
+        "best_leave_plan": "免請假：連休 4 天",
+        "travel_suggestions": [
+          "日本賞櫻",
+          "荷蘭庫肯霍夫鬱金香",
+          "花東縱谷春遊"
+        ]
+      },
+      {
+        "id": "labor-day-2027",
+        "name": "勞動節",
+        "nameEn": "Labor Day",
+        "dateStart": "2027-04-30",
+        "dateEnd": "2027-05-02",
+        "days": 3,
+        "isSingleDay": false,
+        "makeUpWorkNote": "5/1 勞動節，連休 3 天（僅適用勞工）",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "東南亞輕旅",
+          "韓國首爾玫瑰花節",
+          "台灣近郊放鬆"
+        ]
       },
       {
         "id": "dragon-boat-2027",
@@ -786,9 +890,13 @@
         "dateEnd": "2027-06-09",
         "days": 1,
         "isSingleDay": true,
-        "makeUpWorkNote": "6/9（三）端午節落在週三，無連假",
-        "best_leave_plan": "單日假，可請 6/7（一）＋6/8（二）2 天假 → 6/5（六）-6/11（日）連休 7 天",
-        "travel_suggestions": ["東南亞 5 天短線（泰國、馬來西亞）", "日本東京週邊（鐮倉、箱根）", "南台灣墾丁夏季海灘"]
+        "makeUpWorkNote": "端午節，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "澎湖藍洞浮潛",
+          "綠島夜光浮游生物",
+          "沖繩夏日海島"
+        ]
       },
       {
         "id": "mid-autumn-2027",
@@ -798,9 +906,13 @@
         "dateEnd": "2027-09-15",
         "days": 1,
         "isSingleDay": true,
-        "makeUpWorkNote": "9/15（三）中秋節落在週三，無連假",
-        "best_leave_plan": "單日假，可請 9/13（一）＋9/14（二）2 天假 → 9/11（六）-9/17（日）連休 7 天",
-        "travel_suggestions": ["日本秋日楓葉先行（北海道轉色）", "阿里山中秋賞月（高山月色最美）", "花蓮縱谷賞星夜烤肉"]
+        "makeUpWorkNote": "中秋節，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "北海道大雪山楓葉",
+          "阿里山賞月",
+          "加拿大楓葉季"
+        ]
       },
       {
         "id": "national-day-2027",
@@ -810,33 +922,13 @@
         "dateEnd": "2027-10-11",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "10/10（日）國慶日，補假次一工作日 10/11（一），共 3 天連假",
-        "best_leave_plan": "免請假：10/9（六）-10/11（一）連休 3 天",
-        "travel_suggestions": ["台北國慶煙火（圓山、信義區）", "合歡山楓葉季（10 月旺季）", "東部秋收縱谷稻田金黃"]
-      },
-      {
-        "id": "retrocession-2027",
-        "name": "台灣光復節",
-        "nameEn": "Taiwan Retrocession Day",
-        "dateStart": "2027-10-23",
-        "dateEnd": "2027-10-25",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/25（一）光復節，連同週末 10/23（六）、10/24（日）共 3 天連假",
-        "best_leave_plan": "免請假：10/23（六）-10/25（一）連休 3 天",
-        "travel_suggestions": ["合歡山楓葉盛期（10 月下旬最紅）", "金門戰地文化騎行", "大雪山國家森林秋楓步道"]
-      },
-      {
-        "id": "constitution-2027",
-        "name": "行憲紀念日",
-        "nameEn": "Constitution Day",
-        "dateStart": "2027-12-24",
-        "dateEnd": "2027-12-26",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "12/25（六）行憲紀念日，補假 12/24（五），連休 3 天",
-        "best_leave_plan": "免請假：12/24（五）-12/26（日）連休 3 天聖誕假期；可加請 12/22-12/23 延長為 5 天",
-        "travel_suggestions": ["台北信義區聖誕市集燈海", "北投、烏來溫泉聖誕泡湯", "出發跨年旅遊（日本大阪、東京跨年）"]
+        "makeUpWorkNote": "國慶日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北國慶煙火",
+          "日本關西楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       }
     ],
     "2028": [
@@ -844,25 +936,33 @@
         "id": "new-year-2028",
         "name": "元旦",
         "nameEn": "New Year's Day",
-        "dateStart": "2028-01-01",
-        "dateEnd": "2028-01-03",
+        "dateStart": "2027-12-31",
+        "dateEnd": "2028-01-02",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "1/1（六）元旦，補假 1/3（一），共 3 天連假",
-        "best_leave_plan": "免請假：1/1（六）-1/3（一）連休 3 天",
-        "travel_suggestions": ["台北 101 跨年煙火隔天悠閒", "礁溪溫泉新年泡湯", "日本跨年初詣（東京、京都）"]
+        "makeUpWorkNote": "2028/1/1 元旦，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北 101 跨年煙火",
+          "礁溪溫泉新年泡湯",
+          "日本跨年初詣"
+        ]
       },
       {
         "id": "lunar-new-year-2028",
         "name": "春節",
         "nameEn": "Lunar New Year",
         "dateStart": "2028-01-22",
-        "dateEnd": "2028-01-31",
-        "days": 10,
+        "dateEnd": "2028-01-30",
+        "days": 9,
         "isSingleDay": false,
-        "makeUpWorkNote": "預測：1/22（六）-1/31（一）連休 10 天（初一 1/26 三），依官方公告為準",
-        "best_leave_plan": "免請假（預測）：1/22（六）-1/31（一）連休 10 天，猴年超強春節！",
-        "travel_suggestions": ["日本北海道雪祭（札幌、旭川）", "歐洲冬季都市旅遊（巴黎、布達佩斯）", "東南亞峇里島、普吉島度假村", "紐西蘭南半球仲夏健行"]
+        "makeUpWorkNote": "農曆春節連休 9 天",
+        "best_leave_plan": "免請假：連休 9 天",
+        "travel_suggestions": [
+          "日本北海道雪祭",
+          "東南亞避寒度假",
+          "歐洲冬季旅遊"
+        ]
       },
       {
         "id": "peace-memorial-2028",
@@ -872,9 +972,13 @@
         "dateEnd": "2028-02-28",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/28（一）228 紀念日，連同週末共 3 天",
-        "best_leave_plan": "免請假：2/26（六）-2/28（一）連休 3 天",
-        "travel_suggestions": ["阿里山吉野櫻（2 月末）", "小琉球浮潛珊瑚礁", "陽明山竹子湖海芋季"]
+        "makeUpWorkNote": "2/28 紀念日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "阿里山櫻花季",
+          "小琉球浮潛",
+          "陽明山海芋季"
+        ]
       },
       {
         "id": "qingming-2028",
@@ -884,9 +988,13 @@
         "dateEnd": "2028-04-04",
         "days": 4,
         "isSingleDay": false,
-        "makeUpWorkNote": "4/4（二）清明節，請 4/3（一）假可連假 4 天",
-        "best_leave_plan": "請 1 天休 4 天：4/3（一）請假 → 4/1（六）-4/4（二）",
-        "travel_suggestions": ["日本賞櫻（東京、京都、奈良）", "荷蘭庫肯霍夫鬱金香（4 月盛開）", "花東縱谷春遊", "太魯閣峽谷健行"]
+        "makeUpWorkNote": "清明連假共 4 天",
+        "best_leave_plan": "免請假：連休 4 天",
+        "travel_suggestions": [
+          "日本賞櫻",
+          "荷蘭庫肯霍夫鬱金香",
+          "花東縱谷春遊"
+        ]
       },
       {
         "id": "labor-day-2028",
@@ -896,69 +1004,61 @@
         "dateEnd": "2028-05-01",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "5/1（一）勞動節，連同週末共 3 天；僅限勞工適用",
-        "best_leave_plan": "免請假：4/29（六）-5/1（一）連休 3 天",
-        "travel_suggestions": ["東南亞 3 天輕旅", "南台灣墾丁夏日衝浪", "宜蘭龜山島賞鯨豚"]
+        "makeUpWorkNote": "5/1 勞動節，連休 3 天（僅適用勞工）",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "東南亞輕旅",
+          "韓國首爾玫瑰花節",
+          "台灣近郊放鬆"
+        ]
       },
       {
         "id": "dragon-boat-2028",
         "name": "端午節",
         "nameEn": "Dragon Boat Festival",
-        "dateStart": "2028-06-14",
-        "dateEnd": "2028-06-14",
-        "days": 1,
-        "isSingleDay": true,
-        "makeUpWorkNote": "6/14（三）端午節，落於週三，無天然連假（預測）",
-        "best_leave_plan": "請 2 天休 5 天：6/12（一）＋6/13（二）請假 → 6/10（六）-6/14（三）",
-        "travel_suggestions": ["澎湖藍洞浮潛", "綠島夜光浮游生物體驗", "小琉球玻璃船賞珊瑚"]
+        "dateStart": "2028-05-27",
+        "dateEnd": "2028-05-29",
+        "days": 3,
+        "isSingleDay": false,
+        "makeUpWorkNote": "端午節，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "澎湖藍洞浮潛",
+          "綠島夜光浮游生物",
+          "沖繩夏日海島"
+        ]
       },
       {
         "id": "mid-autumn-2028",
         "name": "中秋節",
         "nameEn": "Mid-Autumn Festival",
-        "dateStart": "2028-09-21",
-        "dateEnd": "2028-09-24",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "9/21（四）中秋節，請 9/22（五）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：9/22（五）請假 → 9/21（四）-9/24（日）",
-        "travel_suggestions": ["日本東北楓葉（仙台、松島）", "阿里山中秋賞月", "北海道大雪山旭岳楓葉先行"]
+        "dateStart": "2028-10-03",
+        "dateEnd": "2028-10-03",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "中秋節，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "北海道大雪山楓葉",
+          "阿里山賞月",
+          "加拿大楓葉季"
+        ]
       },
       {
         "id": "national-day-2028",
         "name": "國慶日",
         "nameEn": "National Day",
-        "dateStart": "2028-10-07",
+        "dateStart": "2028-10-10",
         "dateEnd": "2028-10-10",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/10（二）國慶日，請 10/9（一）假可連假 4 天",
-        "best_leave_plan": "請 1 天休 4 天：10/9（一）請假 → 10/7（六）-10/10（二）",
-        "travel_suggestions": ["台北國慶煙火", "日本關西楓葉（京都、奈良）", "韓國雪嶽山楓葉"]
-      },
-      {
-        "id": "retrocession-2028",
-        "name": "台灣光復節",
-        "nameEn": "Taiwan Retrocession Day",
-        "dateStart": "2028-10-25",
-        "dateEnd": "2028-10-25",
         "days": 1,
         "isSingleDay": true,
-        "makeUpWorkNote": "10/25（三）光復節，落於週三，無天然連假（預測）",
-        "best_leave_plan": "請 2 天休 5 天：10/23（一）＋10/24（二）請假 → 10/21（六）-10/25（三）",
-        "travel_suggestions": ["合歡山楓葉盛期", "大雪山國家森林秋楓", "京都楓葉（東福寺・嵐山）"]
-      },
-      {
-        "id": "constitution-2028",
-        "name": "行憲紀念日",
-        "nameEn": "Constitution Day",
-        "dateStart": "2028-12-23",
-        "dateEnd": "2028-12-25",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "12/25（一）行憲紀念日，連同週末共 3 天",
-        "best_leave_plan": "免請假：12/23（六）-12/25（一）聖誕連假 3 天",
-        "travel_suggestions": ["歐洲聖誕市集（布拉格、科隆）", "日本跨年準備（東京・大阪）", "台北信義區聖誕燈海"]
+        "makeUpWorkNote": "國慶日，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "台北國慶煙火",
+          "日本關西楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       }
     ],
     "2029": [
@@ -966,13 +1066,17 @@
         "id": "new-year-2029",
         "name": "元旦",
         "nameEn": "New Year's Day",
-        "dateStart": "2029-01-01",
+        "dateStart": "2028-12-30",
         "dateEnd": "2029-01-01",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "1/1（一）元旦，連同前週末共 3 天",
-        "best_leave_plan": "免請假：12/30（六）-1/1（一）連休 3 天",
-        "travel_suggestions": ["台北 101 跨年煙火", "礁溪溫泉新年泡湯", "日本跨年初詣（明治神宮）"]
+        "makeUpWorkNote": "2029/1/1 元旦，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北 101 跨年煙火",
+          "礁溪溫泉新年泡湯",
+          "日本跨年初詣"
+        ]
       },
       {
         "id": "lunar-new-year-2029",
@@ -982,9 +1086,13 @@
         "dateEnd": "2029-02-18",
         "days": 9,
         "isSingleDay": false,
-        "makeUpWorkNote": "預測：2/10（六）-2/18（日）連休 9 天（初一 2/13 二），依官方公告為準",
-        "best_leave_plan": "免請假（預測）：2/10（六）-2/18（日）連休 9 天，雞年春節！",
-        "travel_suggestions": ["日本北海道雪祭（2 月上旬最旺）", "歐洲冬日城市（維也納、布魯塞爾）", "東南亞峇里島、清邁度假", "紐澳南半球仲夏旅遊"]
+        "makeUpWorkNote": "農曆春節連休 9 天",
+        "best_leave_plan": "免請假：連休 9 天",
+        "travel_suggestions": [
+          "日本北海道雪祭",
+          "東南亞避寒度假",
+          "歐洲冬季旅遊"
+        ]
       },
       {
         "id": "peace-memorial-2029",
@@ -994,93 +1102,93 @@
         "dateEnd": "2029-02-28",
         "days": 1,
         "isSingleDay": true,
-        "makeUpWorkNote": "2/28（三）228 紀念日，落於週三，無天然連假（預測）",
-        "best_leave_plan": "請 1 天休 4 天：2/27（二）請假 → 2/24（六）-2/28（三）",
-        "travel_suggestions": ["阿里山吉野櫻（2 月末盛開）", "小琉球浮潛珊瑚礁", "陽明山海芋季"]
+        "makeUpWorkNote": "2/28 紀念日，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "阿里山櫻花季",
+          "小琉球浮潛",
+          "陽明山海芋季"
+        ]
       },
       {
         "id": "qingming-2029",
-        "name": "清明節",
-        "nameEn": "Qingming Festival",
+        "name": "兒童節／清明節",
+        "nameEn": "Children's Day & Qingming",
         "dateStart": "2029-04-04",
-        "dateEnd": "2029-04-04",
-        "days": 1,
-        "isSingleDay": true,
-        "makeUpWorkNote": "4/4（三）清明節，落於週三，無天然連假（預測）",
-        "best_leave_plan": "請 2 天休 5 天：4/2（一）＋4/3（二）請假 → 3/31（六）-4/4（三）",
-        "travel_suggestions": ["日本賞櫻（染井吉野盛開期）", "荷蘭鬱金香公園", "花東縱谷踏青"]
+        "dateEnd": "2029-04-08",
+        "days": 5,
+        "isSingleDay": false,
+        "makeUpWorkNote": "清明連假共 5 天",
+        "best_leave_plan": "免請假：連休 5 天",
+        "travel_suggestions": [
+          "日本賞櫻",
+          "荷蘭庫肯霍夫鬱金香",
+          "花東縱谷春遊"
+        ]
       },
       {
         "id": "labor-day-2029",
         "name": "勞動節",
         "nameEn": "Labor Day",
-        "dateStart": "2029-04-28",
+        "dateStart": "2029-05-01",
         "dateEnd": "2029-05-01",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "5/1（二）勞動節，請 4/30（一）假可連假 4 天；僅限勞工適用",
-        "best_leave_plan": "請 1 天休 4 天：4/30（一）請假 → 4/28（六）-5/1（二）",
-        "travel_suggestions": ["東南亞輕旅（泰國、馬來西亞）", "韓國玫瑰花季", "義大利托斯卡納初夏"]
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "5/1 勞動節，無連假（僅適用勞工）",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "東南亞輕旅",
+          "韓國首爾玫瑰花節",
+          "台灣近郊放鬆"
+        ]
       },
       {
         "id": "dragon-boat-2029",
         "name": "端午節",
         "nameEn": "Dragon Boat Festival",
-        "dateStart": "2029-06-02",
-        "dateEnd": "2029-06-04",
+        "dateStart": "2029-06-15",
+        "dateEnd": "2029-06-17",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "6/3（日）端午節，補假 6/4（一），共 3 天連假（預測）",
-        "best_leave_plan": "免請假：6/2（六）-6/4（一）連休 3 天",
-        "travel_suggestions": ["沖繩夏日海島潛水", "澎湛藍洞浮潛旺季", "宜蘭龜山島賞鯨"]
+        "makeUpWorkNote": "端午節，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "澎湖藍洞浮潛",
+          "綠島夜光浮游生物",
+          "沖繩夏日海島"
+        ]
       },
       {
         "id": "mid-autumn-2029",
         "name": "中秋節",
         "nameEn": "Mid-Autumn Festival",
-        "dateStart": "2029-09-13",
-        "dateEnd": "2029-09-16",
-        "days": 4,
+        "dateStart": "2029-09-21",
+        "dateEnd": "2029-09-23",
+        "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "9/13（四）中秋節，請 9/14（五）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：9/14（五）請假 → 9/13（四）-9/16（日）",
-        "travel_suggestions": ["北海道大雪山楓葉先行", "日本輕井澤初秋微涼", "加拿大楓葉季開跑"]
+        "makeUpWorkNote": "中秋節，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "北海道大雪山楓葉",
+          "阿里山賞月",
+          "加拿大楓葉季"
+        ]
       },
       {
         "id": "national-day-2029",
         "name": "國慶日",
         "nameEn": "National Day",
-        "dateStart": "2029-10-08",
-        "dateEnd": "2029-10-12",
-        "days": 5,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/10（三）國慶日，請 10/9（二）＋10/11（四）假可連假 5 天（預測）",
-        "best_leave_plan": "請 2 天休 5 天：10/9（二）＋10/11（四）請假 → 10/8（六）-10/12（日）（含國慶 3 日）",
-        "travel_suggestions": ["台北國慶煙火", "日本京都楓葉（11 月全盛前預訂）", "韓國雪嶽山楓葉"]
-      },
-      {
-        "id": "retrocession-2029",
-        "name": "台灣光復節",
-        "nameEn": "Taiwan Retrocession Day",
-        "dateStart": "2029-10-25",
-        "dateEnd": "2029-10-28",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/25（四）光復節，請 10/26（五）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：10/26（五）請假 → 10/25（四）-10/28（日）",
-        "travel_suggestions": ["京都東福寺楓葉（10 月末）", "合歡山秋楓步道", "大雪山國家森林"]
-      },
-      {
-        "id": "constitution-2029",
-        "name": "行憲紀念日",
-        "nameEn": "Constitution Day",
-        "dateStart": "2029-12-22",
-        "dateEnd": "2029-12-25",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "12/25（二）行憲紀念日，請 12/24（一）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：12/24（一）請假 → 12/22（六）-12/25（二）聖誕連假",
-        "travel_suggestions": ["歐洲聖誕市集（德國科隆、法國史特拉斯堡）", "日本聖誕燈飾（東京・大阪）", "台北信義區聖誕市集"]
+        "dateStart": "2029-10-10",
+        "dateEnd": "2029-10-10",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "國慶日，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "台北國慶煙火",
+          "日本關西楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       }
     ],
     "2030": [
@@ -1089,120 +1197,128 @@
         "name": "元旦",
         "nameEn": "New Year's Day",
         "dateStart": "2030-01-01",
-        "dateEnd": "2030-01-04",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "1/1（二）元旦，請 12/31（一）假可連假 4 天",
-        "best_leave_plan": "請 1 天休 4 天：12/31（一）請假 → 12/29（六）-1/1（二）",
-        "travel_suggestions": ["台北 101 跨年煙火", "礁溪溫泉新年泡湯", "日本東京跨年初詣"]
+        "dateEnd": "2030-01-01",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "2030/1/1 元旦，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "台北 101 跨年煙火",
+          "礁溪溫泉新年泡湯",
+          "日本跨年初詣"
+        ]
       },
       {
         "id": "lunar-new-year-2030",
         "name": "春節",
         "nameEn": "Lunar New Year",
         "dateStart": "2030-02-01",
-        "dateEnd": "2030-02-08",
-        "days": 8,
+        "dateEnd": "2030-02-07",
+        "days": 7,
         "isSingleDay": false,
-        "makeUpWorkNote": "預測：2/1（五）-2/8（五）連休 8 天（初一 2/3 日），依官方公告為準",
-        "best_leave_plan": "免請假（預測）：2/1（五）-2/8（五）連休 8 天，狗年春節！",
-        "travel_suggestions": ["日本北海道雪祭（最旺期）", "歐洲冬日城市旅遊", "泰國清邁文化祭典", "紐澳南半球仲夏自然探索"]
+        "makeUpWorkNote": "農曆春節連休 7 天",
+        "best_leave_plan": "免請假：連休 7 天",
+        "travel_suggestions": [
+          "日本北海道雪祭",
+          "東南亞避寒度假",
+          "歐洲冬季旅遊"
+        ]
       },
       {
         "id": "peace-memorial-2030",
         "name": "和平紀念日（228）",
         "nameEn": "Peace Memorial Day",
         "dateStart": "2030-02-28",
-        "dateEnd": "2030-03-03",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "2/28（四）228 紀念日，請 3/1（五）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：3/1（五）請假 → 2/28（四）-3/3（日）",
-        "travel_suggestions": ["阿里山吉野櫻（2 月末）", "小琉球浮潛珊瑚礁", "陽明山海芋季"]
+        "dateEnd": "2030-02-28",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "2/28 紀念日，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "阿里山櫻花季",
+          "小琉球浮潛",
+          "陽明山海芋季"
+        ]
       },
       {
         "id": "qingming-2030",
-        "name": "清明節",
-        "nameEn": "Qingming Festival",
+        "name": "兒童節／清明節",
+        "nameEn": "Children's Day & Qingming",
         "dateStart": "2030-04-04",
         "dateEnd": "2030-04-07",
         "days": 4,
         "isSingleDay": false,
-        "makeUpWorkNote": "4/5（五）清明節，請 4/4（四）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：4/4（四）請假 → 4/4（四）-4/7（日）",
-        "travel_suggestions": ["日本賞櫻（京都、東京，4 月初盛開）", "荷蘭庫肯霍夫鬱金香", "太魯閣峽谷健行"]
+        "makeUpWorkNote": "清明連假共 4 天",
+        "best_leave_plan": "免請假：連休 4 天",
+        "travel_suggestions": [
+          "日本賞櫻",
+          "荷蘭庫肯霍夫鬱金香",
+          "花東縱谷春遊"
+        ]
       },
       {
         "id": "labor-day-2030",
         "name": "勞動節",
         "nameEn": "Labor Day",
-        "dateStart": "2030-04-29",
+        "dateStart": "2030-05-01",
         "dateEnd": "2030-05-01",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "5/1（三）勞動節；僅限勞工適用，公務員不放假",
-        "best_leave_plan": "請 1 天休 4 天：4/30（二）請假 → 4/27（六）-5/1（三）",
-        "travel_suggestions": ["東南亞輕旅（泰國、馬來西亞）", "韓國首爾玫瑰花節", "峇里島度假村"]
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "5/1 勞動節，無連假（僅適用勞工）",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "東南亞輕旅",
+          "韓國首爾玫瑰花節",
+          "台灣近郊放鬆"
+        ]
       },
       {
         "id": "dragon-boat-2030",
         "name": "端午節",
         "nameEn": "Dragon Boat Festival",
-        "dateStart": "2030-06-22",
-        "dateEnd": "2030-06-24",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "6/22（六）端午節，補假 6/24（一），共 3 天連假（預測）",
-        "best_leave_plan": "免請假：6/22（六）-6/24（一）連休 3 天",
-        "travel_suggestions": ["澎湖藍洞浮潛旺季", "綠島夜光浮游生物", "沖繩夏日海島潛水"]
+        "dateStart": "2030-06-05",
+        "dateEnd": "2030-06-05",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "端午節，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "澎湖藍洞浮潛",
+          "綠島夜光浮游生物",
+          "沖繩夏日海島"
+        ]
       },
       {
         "id": "mid-autumn-2030",
         "name": "中秋節",
         "nameEn": "Mid-Autumn Festival",
-        "dateStart": "2030-09-29",
-        "dateEnd": "2030-10-01",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/1（二）中秋節，請 9/30（一）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：9/30（一）請假 → 9/28（六）-10/1（二）",
-        "travel_suggestions": ["北海道大雪山楓葉先行", "加拿大魁北克楓葉", "日本輕井澤秋色"]
+        "dateStart": "2030-09-12",
+        "dateEnd": "2030-09-12",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "中秋節，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "北海道大雪山楓葉",
+          "阿里山賞月",
+          "加拿大楓葉季"
+        ]
       },
       {
         "id": "national-day-2030",
         "name": "國慶日",
         "nameEn": "National Day",
         "dateStart": "2030-10-10",
-        "dateEnd": "2030-10-13",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/10（四）國慶日，請 10/11（五）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：10/11（五）請假 → 10/10（四）-10/13（日）",
-        "travel_suggestions": ["台北國慶煙火", "日本楓葉（京都・奈良，11 月盛開前訂）", "韓國雪嶽山楓葉"]
-      },
-      {
-        "id": "retrocession-2030",
-        "name": "台灣光復節",
-        "nameEn": "Taiwan Retrocession Day",
-        "dateStart": "2030-10-25",
-        "dateEnd": "2030-10-27",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/25（五）光復節，天然連假至週末，共 3 天（預測）",
-        "best_leave_plan": "免請假：10/25（五）-10/27（日）連休 3 天",
-        "travel_suggestions": ["京都楓葉全盛（東福寺・永觀堂）", "合歡山秋楓", "大雪山國家森林步道"]
-      },
-      {
-        "id": "constitution-2030",
-        "name": "行憲紀念日",
-        "nameEn": "Constitution Day",
-        "dateStart": "2030-12-25",
-        "dateEnd": "2030-12-25",
+        "dateEnd": "2030-10-10",
         "days": 1,
         "isSingleDay": true,
-        "makeUpWorkNote": "12/25（三）行憲紀念日，落於週三，無天然連假（預測）",
-        "best_leave_plan": "請 1 天休 4 天：12/24（二）請假 → 12/21（六）-12/25（三）聖誕連假",
-        "travel_suggestions": ["歐洲聖誕市集（布拉格、史特拉斯堡）", "日本聖誕燈飾旅遊", "台北信義區聖誕裝置藝術"]
+        "makeUpWorkNote": "國慶日，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "台北國慶煙火",
+          "日本關西楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       }
     ],
     "2031": [
@@ -1214,21 +1330,29 @@
         "dateEnd": "2031-01-01",
         "days": 1,
         "isSingleDay": true,
-        "makeUpWorkNote": "1/1（三）元旦，落於週三，無天然連假（預測）",
-        "best_leave_plan": "請 2 天休 5 天：12/30（一）＋12/31（二）請假 → 12/28（六）-1/1（三）",
-        "travel_suggestions": ["台北 101 跨年煙火", "礁溪溫泉新年泡湯", "日本跨年初詣（明治神宮）"]
+        "makeUpWorkNote": "2031/1/1 元旦，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "台北 101 跨年煙火",
+          "礁溪溫泉新年泡湯",
+          "日本跨年初詣"
+        ]
       },
       {
         "id": "lunar-new-year-2031",
         "name": "春節",
         "nameEn": "Lunar New Year",
         "dateStart": "2031-01-18",
-        "dateEnd": "2031-01-28",
-        "days": 11,
+        "dateEnd": "2031-01-26",
+        "days": 9,
         "isSingleDay": false,
-        "makeUpWorkNote": "預測：1/18（六）-1/28（二）連休 11 天（初一 1/23 四），依官方公告為準",
-        "best_leave_plan": "免請假（預測）：1/18（六）-1/28（二）連休 11 天，豬年超強春節！",
-        "travel_suggestions": ["日本北海道雪祭（最旺期）", "歐洲冬日城市（巴黎、布魯塞爾）", "東南亞峇里島、清邁度假", "紐西蘭南島冬季健行（南半球夏季）"]
+        "makeUpWorkNote": "農曆春節連休 9 天",
+        "best_leave_plan": "免請假：連休 9 天",
+        "travel_suggestions": [
+          "日本北海道雪祭",
+          "東南亞避寒度假",
+          "歐洲冬季旅遊"
+        ]
       },
       {
         "id": "peace-memorial-2031",
@@ -1238,57 +1362,77 @@
         "dateEnd": "2031-03-02",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/28（五）228 紀念日，天然連假至週末，共 3 天（預測）",
-        "best_leave_plan": "免請假：2/28（五）-3/2（日）連休 3 天",
-        "travel_suggestions": ["阿里山吉野櫻（2 月末）", "小琉球浮潛珊瑚礁", "陽明山竹子湖海芋季"]
+        "makeUpWorkNote": "2/28 紀念日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "阿里山櫻花季",
+          "小琉球浮潛",
+          "陽明山海芋季"
+        ]
       },
       {
         "id": "qingming-2031",
-        "name": "清明節",
-        "nameEn": "Qingming Festival",
-        "dateStart": "2031-04-05",
-        "dateEnd": "2031-04-07",
-        "days": 3,
+        "name": "兒童節／清明節",
+        "nameEn": "Children's Day & Qingming",
+        "dateStart": "2031-04-03",
+        "dateEnd": "2031-04-06",
+        "days": 4,
         "isSingleDay": false,
-        "makeUpWorkNote": "4/5（六）清明節，補假 4/7（一），共 3 天連假（預測）",
-        "best_leave_plan": "免請假：4/5（六）-4/7（一）連休 3 天",
-        "travel_suggestions": ["日本賞櫻（東京、京都，4 月初盛開）", "荷蘭庫肯霍夫鬱金香", "花東縱谷油菜花田"]
+        "makeUpWorkNote": "清明連假共 4 天",
+        "best_leave_plan": "免請假：連休 4 天",
+        "travel_suggestions": [
+          "日本賞櫻",
+          "荷蘭庫肯霍夫鬱金香",
+          "花東縱谷春遊"
+        ]
       },
       {
         "id": "labor-day-2031",
         "name": "勞動節",
         "nameEn": "Labor Day",
         "dateStart": "2031-05-01",
-        "dateEnd": "2031-05-04",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "5/1（四）勞動節，請 5/2（五）假可連假 4 天；僅限勞工適用",
-        "best_leave_plan": "請 1 天休 4 天：5/2（五）請假 → 5/1（四）-5/4（日）",
-        "travel_suggestions": ["東南亞輕旅（泰國、馬來西亞）", "韓國首爾薔薇花節", "義大利初夏城市遊"]
+        "dateEnd": "2031-05-01",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "5/1 勞動節，無連假（僅適用勞工）",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "東南亞輕旅",
+          "韓國首爾玫瑰花節",
+          "台灣近郊放鬆"
+        ]
       },
       {
         "id": "dragon-boat-2031",
         "name": "端午節",
         "nameEn": "Dragon Boat Festival",
-        "dateStart": "2031-06-12",
-        "dateEnd": "2031-06-15",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "6/12（四）端午節，請 6/13（五）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：6/13（五）請假 → 6/12（四）-6/15（日）",
-        "travel_suggestions": ["澎湖藍洞浮潛旺季", "綠島夜光浮游生物體驗", "沖繩夏日潛水"]
+        "dateStart": "2031-06-24",
+        "dateEnd": "2031-06-24",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "端午節，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "澎湖藍洞浮潛",
+          "綠島夜光浮游生物",
+          "沖繩夏日海島"
+        ]
       },
       {
         "id": "mid-autumn-2031",
         "name": "中秋節",
         "nameEn": "Mid-Autumn Festival",
-        "dateStart": "2031-09-19",
-        "dateEnd": "2031-09-22",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "9/21（日）中秋節，補假 9/22（一），共 4 天連假（預測）",
-        "best_leave_plan": "免請假：9/19（五）-9/22（一）連休 4 天；含中秋賞月週末",
-        "travel_suggestions": ["北海道大雪山旭岳楓葉先行", "日本輕井澤初秋", "加拿大楓葉季"]
+        "dateStart": "2031-10-01",
+        "dateEnd": "2031-10-01",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "中秋節，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "北海道大雪山楓葉",
+          "阿里山賞月",
+          "加拿大楓葉季"
+        ]
       },
       {
         "id": "national-day-2031",
@@ -1298,33 +1442,13 @@
         "dateEnd": "2031-10-12",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "10/10（五）國慶日，天然連假至週末，共 3 天（預測）",
-        "best_leave_plan": "免請假：10/10（五）-10/12（日）連休 3 天",
-        "travel_suggestions": ["台北國慶煙火", "日本楓葉（奈良・日光）", "韓國雪嶽山楓葉"]
-      },
-      {
-        "id": "retrocession-2031",
-        "name": "台灣光復節",
-        "nameEn": "Taiwan Retrocession Day",
-        "dateStart": "2031-10-25",
-        "dateEnd": "2031-10-27",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/25（六）光復節，補假 10/27（一），共 3 天連假（預測）",
-        "best_leave_plan": "免請假：10/25（六）-10/27（一）連休 3 天",
-        "travel_suggestions": ["京都東福寺・永觀堂楓葉（10 月末轉紅）", "合歡山秋楓步道", "大雪山國家森林"]
-      },
-      {
-        "id": "constitution-2031",
-        "name": "行憲紀念日",
-        "nameEn": "Constitution Day",
-        "dateStart": "2031-12-25",
-        "dateEnd": "2031-12-28",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "12/25（四）行憲紀念日，請 12/26（五）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：12/26（五）請假 → 12/25（四）-12/28（日）聖誕連假",
-        "travel_suggestions": ["歐洲聖誕市集（德國科隆、奧地利維也納）", "日本聖誕燈飾（東京・大阪）", "台北信義區聖誕燈海"]
+        "makeUpWorkNote": "國慶日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北國慶煙火",
+          "日本關西楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       }
     ],
     "2032": [
@@ -1333,84 +1457,112 @@
         "name": "元旦",
         "nameEn": "New Year's Day",
         "dateStart": "2032-01-01",
-        "dateEnd": "2032-01-04",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "1/1（四）元旦，請 1/2（五）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：1/2（五）請假 → 1/1（四）-1/4（日）",
-        "travel_suggestions": ["台北 101 跨年煙火", "礁溪溫泉新年泡湯", "日本跨年初詣（東京、京都）"]
+        "dateEnd": "2032-01-01",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "2032/1/1 元旦，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "台北 101 跨年煙火",
+          "礁溪溫泉新年泡湯",
+          "日本跨年初詣"
+        ]
       },
       {
         "id": "lunar-new-year-2032",
         "name": "春節",
         "nameEn": "Lunar New Year",
         "dateStart": "2032-02-07",
-        "dateEnd": "2032-02-16",
-        "days": 10,
+        "dateEnd": "2032-02-15",
+        "days": 9,
         "isSingleDay": false,
-        "makeUpWorkNote": "預測：2/7（六）-2/16（一）連休 10 天（初一 2/11 三），依官方公告為準",
-        "best_leave_plan": "免請假（預測）：2/7（六）-2/16（一）連休 10 天，鼠年超強春節！",
-        "travel_suggestions": ["日本北海道雪祭（2 月上旬最旺）", "歐洲冬季都市旅遊", "東南亞峇里島、普吉島度假", "紐西蘭、澳洲南半球仲夏"]
+        "makeUpWorkNote": "農曆春節連休 9 天",
+        "best_leave_plan": "免請假：連休 9 天",
+        "travel_suggestions": [
+          "日本北海道雪祭",
+          "東南亞避寒度假",
+          "歐洲冬季旅遊"
+        ]
       },
       {
         "id": "peace-memorial-2032",
         "name": "和平紀念日（228）",
         "nameEn": "Peace Memorial Day",
-        "dateStart": "2032-02-28",
-        "dateEnd": "2032-03-01",
+        "dateStart": "2032-02-27",
+        "dateEnd": "2032-02-29",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/28（六）228 紀念日，補假 3/1（一），共 3 天連假（預測）",
-        "best_leave_plan": "免請假：2/28（六）-3/1（一）連休 3 天",
-        "travel_suggestions": ["阿里山吉野櫻（2 月末）", "小琉球浮潛珊瑚礁", "陽明山海芋季"]
+        "makeUpWorkNote": "2/28 紀念日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "阿里山櫻花季",
+          "小琉球浮潛",
+          "陽明山海芋季"
+        ]
       },
       {
         "id": "qingming-2032",
         "name": "兒童節／清明節",
         "nameEn": "Children's Day & Qingming",
-        "dateStart": "2032-04-03",
-        "dateEnd": "2032-04-06",
+        "dateStart": "2032-04-02",
+        "dateEnd": "2032-04-05",
         "days": 4,
         "isSingleDay": false,
-        "makeUpWorkNote": "4/4（日）兒童節與清明節同日，補假 4/5（一）＋4/6（二），共 4 天連假（預測）",
-        "best_leave_plan": "免請假：4/3（六）-4/6（二）連休 4 天（兩節同日補假）",
-        "travel_suggestions": ["日本賞櫻（東京、京都，4 月初盛開）", "荷蘭庫肯霍夫鬱金香", "花東縱谷春遊", "太魯閣峽谷健行"]
+        "makeUpWorkNote": "清明連假共 4 天",
+        "best_leave_plan": "免請假：連休 4 天",
+        "travel_suggestions": [
+          "日本賞櫻",
+          "荷蘭庫肯霍夫鬱金香",
+          "花東縱谷春遊"
+        ]
       },
       {
         "id": "labor-day-2032",
         "name": "勞動節",
         "nameEn": "Labor Day",
-        "dateStart": "2032-05-01",
-        "dateEnd": "2032-05-03",
+        "dateStart": "2032-04-30",
+        "dateEnd": "2032-05-02",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "5/1（六）勞動節，補假 5/3（一），共 3 天連假；僅限勞工適用",
-        "best_leave_plan": "免請假：5/1（六）-5/3（一）連休 3 天",
-        "travel_suggestions": ["東南亞 3 天輕旅（泰國、馬來西亞）", "韓國首爾薔薇花節", "日本輕井澤初夏微涼"]
+        "makeUpWorkNote": "5/1 勞動節，連休 3 天（僅適用勞工）",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "東南亞輕旅",
+          "韓國首爾玫瑰花節",
+          "台灣近郊放鬆"
+        ]
       },
       {
         "id": "dragon-boat-2032",
         "name": "端午節",
         "nameEn": "Dragon Boat Festival",
-        "dateStart": "2032-05-29",
-        "dateEnd": "2032-05-31",
+        "dateStart": "2032-06-11",
+        "dateEnd": "2032-06-13",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "5/31（一）端午節，連同週末共 3 天（預測）",
-        "best_leave_plan": "免請假：5/29（六）-5/31（一）連休 3 天",
-        "travel_suggestions": ["澎湛藍洞浮潛旺季", "綠島夜光浮游生物體驗", "沖繩夏日海島"]
+        "makeUpWorkNote": "端午節，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "澎湖藍洞浮潛",
+          "綠島夜光浮游生物",
+          "沖繩夏日海島"
+        ]
       },
       {
         "id": "mid-autumn-2032",
         "name": "中秋節",
         "nameEn": "Mid-Autumn Festival",
-        "dateStart": "2032-09-10",
-        "dateEnd": "2032-09-12",
+        "dateStart": "2032-09-18",
+        "dateEnd": "2032-09-20",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "9/10（五）中秋節，天然連假至週末，共 3 天（預測）",
-        "best_leave_plan": "免請假：9/10（五）-9/12（日）連休 3 天",
-        "travel_suggestions": ["北海道大雪山楓葉先行", "日本輕井澤秋色", "加拿大魁北克楓葉季"]
+        "makeUpWorkNote": "中秋節，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "北海道大雪山楓葉",
+          "阿里山賞月",
+          "加拿大楓葉季"
+        ]
       },
       {
         "id": "national-day-2032",
@@ -1420,33 +1572,13 @@
         "dateEnd": "2032-10-11",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "10/10（日）國慶日，補假 10/11（一），共 3 天連假（預測）",
-        "best_leave_plan": "免請假：10/9（六）-10/11（一）連休 3 天",
-        "travel_suggestions": ["台北國慶煙火", "日本楓葉（京都、奈良）", "韓國雪嶽山楓葉"]
-      },
-      {
-        "id": "retrocession-2032",
-        "name": "台灣光復節",
-        "nameEn": "Taiwan Retrocession Day",
-        "dateStart": "2032-10-23",
-        "dateEnd": "2032-10-25",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/25（一）光復節，連同週末共 3 天（預測）",
-        "best_leave_plan": "免請假：10/23（六）-10/25（一）連休 3 天",
-        "travel_suggestions": ["京都東福寺・永觀堂楓葉（10 月末轉紅）", "合歡山秋楓步道", "大雪山國家森林"]
-      },
-      {
-        "id": "constitution-2032",
-        "name": "行憲紀念日",
-        "nameEn": "Constitution Day",
-        "dateStart": "2032-12-25",
-        "dateEnd": "2032-12-27",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "12/25（六）行憲紀念日，補假 12/27（一），共 3 天連假（預測）",
-        "best_leave_plan": "免請假：12/25（六）-12/27（一）聖誕連假 3 天",
-        "travel_suggestions": ["歐洲聖誕市集（德國、奧地利）", "日本聖誕燈飾（東京・大阪）", "台北信義區聖誕市集燈海"]
+        "makeUpWorkNote": "國慶日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北國慶煙火",
+          "日本關西楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       }
     ],
     "2033": [
@@ -1454,13 +1586,17 @@
         "id": "new-year-2033",
         "name": "元旦",
         "nameEn": "New Year's Day",
-        "dateStart": "2033-01-01",
-        "dateEnd": "2033-01-03",
+        "dateStart": "2032-12-31",
+        "dateEnd": "2033-01-02",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "1/1（六）元旦，補假 1/3（一），共 3 天連假（預測）",
-        "best_leave_plan": "免請假：1/1（六）-1/3（一）連休 3 天",
-        "travel_suggestions": ["台北 101 跨年煙火", "礁溪溫泉新年泡湯", "日本跨年初詣（明治神宮）"]
+        "makeUpWorkNote": "2033/1/1 元旦，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北 101 跨年煙火",
+          "礁溪溫泉新年泡湯",
+          "日本跨年初詣"
+        ]
       },
       {
         "id": "lunar-new-year-2033",
@@ -1470,9 +1606,13 @@
         "dateEnd": "2033-02-06",
         "days": 10,
         "isSingleDay": false,
-        "makeUpWorkNote": "預測：1/28（五）-2/6（日）連休 10 天（初一 1/31 一），依官方公告為準",
-        "best_leave_plan": "免請假（預測）：1/28（五）-2/6（日）連休 10 天，牛年春節！",
-        "travel_suggestions": ["日本北海道雪祭（2 月上旬）", "歐洲冬日城市旅遊（巴黎、維也納）", "泰國清邁文化祭典", "紐澳南半球仲夏自然探索"]
+        "makeUpWorkNote": "農曆春節連休 10 天",
+        "best_leave_plan": "免請假：連休 10 天",
+        "travel_suggestions": [
+          "日本北海道雪祭",
+          "東南亞避寒度假",
+          "歐洲冬季旅遊"
+        ]
       },
       {
         "id": "peace-memorial-2033",
@@ -1482,21 +1622,29 @@
         "dateEnd": "2033-02-28",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "2/28（一）228 紀念日，連同週末共 3 天（預測）",
-        "best_leave_plan": "免請假：2/26（六）-2/28（一）連休 3 天",
-        "travel_suggestions": ["阿里山吉野櫻（2 月末）", "小琉球浮潛珊瑚礁", "陽明山竹子湖海芋季"]
+        "makeUpWorkNote": "2/28 紀念日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "阿里山櫻花季",
+          "小琉球浮潛",
+          "陽明山海芋季"
+        ]
       },
       {
         "id": "qingming-2033",
         "name": "兒童節／清明節",
         "nameEn": "Children's Day & Qingming",
         "dateStart": "2033-04-02",
-        "dateEnd": "2033-04-04",
-        "days": 3,
+        "dateEnd": "2033-04-05",
+        "days": 4,
         "isSingleDay": false,
-        "makeUpWorkNote": "4/4（一）兒童節與清明節同日（預測），連同週末共 3 天",
-        "best_leave_plan": "免請假：4/2（六）-4/4（一）連休 3 天",
-        "travel_suggestions": ["日本賞櫻（東京、京都）", "荷蘭庫肯霍夫鬱金香", "花東縱谷油菜花田"]
+        "makeUpWorkNote": "清明連假共 4 天",
+        "best_leave_plan": "免請假：連休 4 天",
+        "travel_suggestions": [
+          "日本賞櫻",
+          "荷蘭庫肯霍夫鬱金香",
+          "花東縱谷春遊"
+        ]
       },
       {
         "id": "labor-day-2033",
@@ -1506,33 +1654,45 @@
         "dateEnd": "2033-05-02",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "5/1（日）勞動節，補假 5/2（一），共 3 天連假；僅限勞工適用（預測）",
-        "best_leave_plan": "免請假：4/30（六）-5/2（一）連休 3 天",
-        "travel_suggestions": ["東南亞輕旅（泰國、馬來西亞）", "韓國首爾玫瑰花節", "義大利初夏城市遊"]
+        "makeUpWorkNote": "5/1 勞動節，連休 3 天（僅適用勞工）",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "東南亞輕旅",
+          "韓國首爾玫瑰花節",
+          "台灣近郊放鬆"
+        ]
       },
       {
         "id": "dragon-boat-2033",
         "name": "端午節",
         "nameEn": "Dragon Boat Festival",
-        "dateStart": "2033-06-18",
-        "dateEnd": "2033-06-20",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "6/20（一）端午節，連同週末共 3 天（預測）",
-        "best_leave_plan": "免請假：6/18（六）-6/20（一）連休 3 天",
-        "travel_suggestions": ["澎湛藍洞浮潛旺季", "綠島夜光浮游生物體驗", "沖繩夏日海島潛水"]
+        "dateStart": "2033-06-01",
+        "dateEnd": "2033-06-01",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "端午節，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "澎湖藍洞浮潛",
+          "綠島夜光浮游生物",
+          "沖繩夏日海島"
+        ]
       },
       {
         "id": "mid-autumn-2033",
         "name": "中秋節",
         "nameEn": "Mid-Autumn Festival",
-        "dateStart": "2033-09-25",
-        "dateEnd": "2033-09-28",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "9/28（三）中秋節，請 9/27（二）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：9/27（二）請假 → 9/25（六）-9/28（三）",
-        "travel_suggestions": ["北海道大雪山楓葉先行", "日本輕井澤秋色", "加拿大楓葉季"]
+        "dateStart": "2033-09-08",
+        "dateEnd": "2033-09-08",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "中秋節，無連假",
+        "best_leave_plan": "可請假前後天延長假期",
+        "travel_suggestions": [
+          "北海道大雪山楓葉",
+          "阿里山賞月",
+          "加拿大楓葉季"
+        ]
       },
       {
         "id": "national-day-2033",
@@ -1542,33 +1702,13 @@
         "dateEnd": "2033-10-10",
         "days": 3,
         "isSingleDay": false,
-        "makeUpWorkNote": "10/10（一）國慶日，連同週末共 3 天（預測）",
-        "best_leave_plan": "免請假：10/8（六）-10/10（一）連休 3 天",
-        "travel_suggestions": ["台北國慶煙火", "日本關西楓葉（京都・奈良）", "韓國雪嶽山楓葉"]
-      },
-      {
-        "id": "retrocession-2033",
-        "name": "台灣光復節",
-        "nameEn": "Taiwan Retrocession Day",
-        "dateStart": "2033-10-22",
-        "dateEnd": "2033-10-25",
-        "days": 4,
-        "isSingleDay": false,
-        "makeUpWorkNote": "10/25（二）光復節，請 10/24（一）假可連假 4 天（預測）",
-        "best_leave_plan": "請 1 天休 4 天：10/24（一）請假 → 10/22（六）-10/25（二）",
-        "travel_suggestions": ["京都東福寺・永觀堂楓葉（10 月末轉紅）", "合歡山秋楓步道", "大雪山國家森林"]
-      },
-      {
-        "id": "constitution-2033",
-        "name": "行憲紀念日",
-        "nameEn": "Constitution Day",
-        "dateStart": "2033-12-24",
-        "dateEnd": "2033-12-26",
-        "days": 3,
-        "isSingleDay": false,
-        "makeUpWorkNote": "12/25（日）行憲紀念日，補假 12/26（一），共 3 天連假（預測）",
-        "best_leave_plan": "免請假：12/24（六）-12/26（一）聖誕連假 3 天",
-        "travel_suggestions": ["歐洲聖誕市集（德國科隆、布拉格）", "日本跨年準備（東京・大阪）", "台北信義區聖誕燈海迎跨年"]
+        "makeUpWorkNote": "國慶日，連休 3 天",
+        "best_leave_plan": "請參考行事曆",
+        "travel_suggestions": [
+          "台北國慶煙火",
+          "日本關西楓葉",
+          "韓國雪嶽山楓葉"
+        ]
       }
     ]
   }
