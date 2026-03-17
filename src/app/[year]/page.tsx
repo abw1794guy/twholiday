@@ -46,7 +46,7 @@ export default function YearPage({ params }: YearPageProps) {
 
         <div className="flex justify-center gap-4 lg:gap-6 px-2 sm:px-4">
           <AdSidebar position="left" />
-          <main className="max-w-4xl w-full min-w-0 px-2 sm:px-6 py-8">
+          <main className="max-w-5xl w-full min-w-0 px-2 sm:px-6 py-8">
             <HeroSection year={year} />
             <HolidayPageContent data={data} initialYear={year} />
           </main>

@@ -47,8 +47,8 @@ export function YearSwitcher({ years, selectedYear }: YearSwitcherProps) {
             href={`/${year}`}
             className={
               year === selectedYear
-                ? 'px-4 py-2 rounded-lg bg-slate-900 text-white font-semibold text-sm transition'
-                : 'px-4 py-2 rounded-lg border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 font-medium text-sm transition'
+                ? 'px-4 py-2 rounded-lg bg-slate-900 text-white font-semibold text-base transition'
+                : 'px-4 py-2 rounded-lg border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 font-medium text-base transition'
             }
             aria-current={year === selectedYear ? 'page' : undefined}
           >

@@ -10,7 +10,7 @@ interface StrategyBadgeProps {
 export function StrategyBadge({ text }: StrategyBadgeProps) {
   return (
     <div
-      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-strategy-light text-strategy-green font-medium text-sm border border-emerald-200"
+      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-strategy-light text-strategy-green font-medium text-base border border-emerald-200"
       role="status"
       aria-label={`請假攻略：${text}`}
     >

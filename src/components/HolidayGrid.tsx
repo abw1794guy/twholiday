@@ -46,8 +46,8 @@ function HolidayStrategyCard({ h }: { h: HolidayItem }) {
           </span>
         )}
       </div>
-      <p className="mt-0.5 text-slate-500 text-sm">{h.nameEn}</p>
-      <dl className="mt-3 space-y-1.5 text-sm">
+      <p className="mt-0.5 text-slate-500 text-base">{h.nameEn}</p>
+      <dl className="mt-3 space-y-1.5 text-base">
         <div className="flex gap-2">
           <dt className="text-slate-500 w-20 shrink-0">放假</dt>
           <dd className="font-medium tabular-nums">{formatShortDate(h.dateStart, h.dateEnd, h.isSingleDay)}</dd>
@@ -64,12 +64,12 @@ function HolidayStrategyCard({ h }: { h: HolidayItem }) {
         </div>
       </dl>
       {h.makeUpWorkNote && (
-        <p className="mt-2 text-xs text-slate-500 leading-relaxed">{h.makeUpWorkNote}</p>
+        <p className="mt-2 text-sm text-slate-500 leading-relaxed">{h.makeUpWorkNote}</p>
       )}
       {h.travel_suggestions?.length > 0 && (
         <div className="mt-2">
-          <span className="text-xs font-medium text-slate-500">推薦：</span>
-          <span className="ml-1 text-xs text-slate-600">{h.travel_suggestions.join('、')}</span>
+          <span className="text-sm font-medium text-slate-500">推薦：</span>
+          <span className="ml-1 text-sm text-slate-600">{h.travel_suggestions.join('、')}</span>
         </div>
       )}
     </article>
@@ -84,12 +84,12 @@ function MonthTravelTips({ tip, compact = false }: { tip: MonthlyTravelTip; comp
         <span className="text-xs font-medium text-sky-700 bg-sky-100 rounded-full px-2 py-0.5">
           {tip.season}
         </span>
-        <span className="text-sm font-semibold text-sky-900">{tip.theme}</span>
+        <span className="text-base font-semibold text-sky-900">{tip.theme}</span>
       </div>
-      <p className="text-xs text-slate-600 leading-relaxed mb-3">{tip.highlights}</p>
+      <p className="text-sm text-slate-600 leading-relaxed mb-3">{tip.highlights}</p>
       <ul className="space-y-1.5">
         {tip.tips.map((t, i) => (
-          <li key={i} className="flex gap-2 text-xs text-slate-700">
+          <li key={i} className="flex gap-2 text-sm text-slate-700">
             <span className="text-sky-400 mt-0.5 shrink-0">✈</span>
             <span>{t}</span>
           </li>
@@ -106,7 +106,7 @@ export function HolidayGrid({ year, holidays, monthlyTips }: HolidayGridProps) {
   return (
     <section id="details" className="scroll-mt-6">
       <h2 className="text-lg font-bold text-slate-800 mb-6">請假攻略詳情</h2>
-      <p className="text-sm text-slate-600 mb-6">
+      <p className="text-base text-slate-600 mb-6">
         以下依月份顯示該月行事曆、請假攻略與旅遊推薦。
       </p>
       <div className="space-y-10">
@@ -120,7 +120,7 @@ export function HolidayGrid({ year, holidays, monthlyTips }: HolidayGridProps) {
               className="scroll-mt-6 rounded-xl border border-slate-200 bg-white overflow-hidden shadow-sm"
             >
               <div className="border-b border-slate-200 bg-slate-50 px-4 py-2">
-                <h3 className="text-base font-bold text-slate-800">
+                <h3 className="text-xl font-bold text-slate-800">
                   {year} 年 {MONTH_NAMES[month - 1]}
                 </h3>
               </div>
@@ -143,7 +143,7 @@ export function HolidayGrid({ year, holidays, monthlyTips }: HolidayGridProps) {
                     </>
                   ) : (
                     <>
-                      <p className="text-xs text-slate-400 font-medium uppercase tracking-wide mb-1">
+                      <p className="text-sm text-slate-400 font-medium uppercase tracking-wide mb-1">
                         本月無國定連假
                       </p>
                       {tip && <MonthTravelTips tip={tip} />}

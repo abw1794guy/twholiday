@@ -61,7 +61,7 @@ function YearIntroBanner({ year, holidays, yearMeta }: YearIntroSectionProps) {
       <h2 className="text-xl font-bold text-slate-900 leading-snug mb-2">
         {year} 年行事曆完整版｜國定假日＋連假請假攻略總整理
       </h2>
-      <div className="space-y-1.5 text-sm text-slate-700 leading-relaxed">
+      <div className="space-y-1.5 text-base text-slate-700 leading-relaxed">
         <p className="flex items-start gap-1.5">
           <Plane className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" aria-hidden />
           <span>
@@ -94,13 +94,13 @@ export function YearIntroSection({ year, holidays, yearMeta }: YearIntroSectionP
     <section id="year-intro" className="scroll-mt-6 rounded-xl border border-slate-200 bg-white overflow-hidden shadow-sm">
       <YearIntroBanner year={year} holidays={holidays} yearMeta={yearMeta} />
       <div className="px-5 pt-4 pb-1">
-        <h3 className="flex items-center gap-2 text-base font-bold text-slate-800">
+        <h3 className="flex items-center gap-2 text-lg font-bold text-slate-800">
           <Calendar className="w-4 h-4 text-amber-600" aria-hidden />
           {year} 年連假、國定假日一覽
         </h3>
       </div>
       <div className="overflow-x-auto overflow-y-hidden -mx-px">
-        <table className="w-full min-w-[480px] text-sm">
+        <table className="w-full min-w-[480px] text-base">
           <thead>
             <tr className="border-t border-slate-200 bg-slate-50/80">
               <th className="text-left py-2.5 px-3 font-semibold text-slate-700 w-[26%]">連假名稱</th>
@@ -132,7 +132,7 @@ export function YearIntroSection({ year, holidays, yearMeta }: YearIntroSectionP
         </table>
       </div>
       {singleDay.length > 0 && (
-        <p className="px-5 pb-4 pt-2 text-xs text-slate-500 border-t border-slate-100 mt-0">
+        <p className="px-5 pb-4 pt-2 text-sm text-slate-500 border-t border-slate-100 mt-0">
           單日假（{singleDay.map((h) => h.name).join('、')}）未形成連假，可搭配請假攻略延長休假。
         </p>
       )}

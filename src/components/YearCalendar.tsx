@@ -17,7 +17,7 @@ export function YearCalendar({ year, holidays }: YearCalendarProps) {
           <MonthCalendar key={month} year={year} month={month} holidays={holidays} size="large" />
         ))}
       </div>
-      <div className="mt-3 flex flex-wrap gap-3 items-center text-xs text-slate-500">
+      <div className="mt-3 flex flex-wrap gap-3 items-center text-sm text-slate-500">
         <span className="inline-flex items-center gap-1.5">
           <span className="w-3.5 h-3.5 rounded bg-amber-100 border border-amber-300 shrink-0" aria-hidden />
           連假

@@ -11,25 +11,25 @@ export function SectionNav() {
     >
       <a
         href="#year-intro"
-        className="inline-flex items-center rounded-lg bg-slate-100 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-200 transition"
+        className="inline-flex items-center rounded-lg bg-slate-100 px-3 py-1.5 text-base font-medium text-slate-700 hover:bg-slate-200 transition"
       >
         今年連假
       </a>
       <a
         href="#calendar"
-        className="inline-flex items-center rounded-lg bg-slate-100 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-200 transition"
+        className="inline-flex items-center rounded-lg bg-slate-100 px-3 py-1.5 text-base font-medium text-slate-700 hover:bg-slate-200 transition"
       >
         行事曆
       </a>
       <a
         href="#details"
-        className="inline-flex items-center rounded-lg bg-slate-100 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-200 transition"
+        className="inline-flex items-center rounded-lg bg-slate-100 px-3 py-1.5 text-base font-medium text-slate-700 hover:bg-slate-200 transition"
       >
         請假攻略詳情
       </a>
       <a
         href="#source"
-        className="inline-flex items-center rounded-lg bg-slate-100 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-200 transition"
+        className="inline-flex items-center rounded-lg bg-slate-100 px-3 py-1.5 text-base font-medium text-slate-700 hover:bg-slate-200 transition"
       >
         資料來源
       </a>
