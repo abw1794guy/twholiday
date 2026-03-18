@@ -1135,7 +1135,7 @@
         "days": 1,
         "isSingleDay": true,
         "makeUpWorkNote": "5/1 勞動節，無連假（僅適用勞工）",
-        "best_leave_plan": "請 1 天休 4 天：請 5/0，休 4/28~5/1",
+        "best_leave_plan": "請 1 天休 4 天：請 4/30，休 4/28~5/1",
         "travel_suggestions": [
           "東南亞輕旅",
           "韓國首爾玫瑰花節",
@@ -1201,7 +1201,7 @@
         "days": 1,
         "isSingleDay": true,
         "makeUpWorkNote": "2030/1/1 元旦，無連假",
-        "best_leave_plan": "請 1 天休 4 天：請 1/0，休 12/29~1/1",
+        "best_leave_plan": "請 1 天休 4 天：請 12/31，休 12/29~1/1",
         "travel_suggestions": [
           "台北 101 跨年煙火",
           "礁溪溫泉新年泡湯",
@@ -1233,7 +1233,7 @@
         "days": 1,
         "isSingleDay": true,
         "makeUpWorkNote": "2/28 紀念日，無連假",
-        "best_leave_plan": "請 1 天休 4 天：請 2/29，休 2/28~3/3",
+        "best_leave_plan": "請 1 天休 4 天：請 3/1，休 2/28~3/3",
         "travel_suggestions": [
           "阿里山櫻花季",
           "小琉球浮潛",
@@ -1265,7 +1265,7 @@
         "days": 1,
         "isSingleDay": true,
         "makeUpWorkNote": "5/1 勞動節，無連假（僅適用勞工）",
-        "best_leave_plan": "請 2 天休 5 天：請 5/-1~5/0，休 4/27~5/1",
+        "best_leave_plan": "請 2 天休 5 天：請 4/29~4/30，休 4/27~5/1",
         "travel_suggestions": [
           "東南亞輕旅",
           "韓國首爾玫瑰花節",
@@ -1331,7 +1331,7 @@
         "days": 1,
         "isSingleDay": true,
         "makeUpWorkNote": "2031/1/1 元旦，無連假",
-        "best_leave_plan": "請 2 天休 5 天：請 1/-1~1/0，休 12/28~1/1",
+        "best_leave_plan": "請 2 天休 5 天：請 12/30~12/31，休 12/28~1/1",
         "travel_suggestions": [
           "台北 101 跨年煙火",
           "礁溪溫泉新年泡湯",
@@ -1427,7 +1427,7 @@
         "days": 1,
         "isSingleDay": true,
         "makeUpWorkNote": "中秋節，無連假",
-        "best_leave_plan": "請 2 天休 5 天：請 10/-1~10/0，休 9/27~10/1",
+        "best_leave_plan": "請 2 天休 5 天：請 9/29~9/30，休 9/27~10/1",
         "travel_suggestions": [
           "北海道大雪山楓葉",
           "阿里山賞月",
@@ -1671,7 +1671,7 @@
         "days": 1,
         "isSingleDay": true,
         "makeUpWorkNote": "端午節，無連假",
-        "best_leave_plan": "請 2 天休 5 天：請 6/-1~6/0，休 5/28~6/1",
+        "best_leave_plan": "請 2 天休 5 天：請 5/30~5/31，休 5/28~6/1",
         "travel_suggestions": [
           "澎湖藍洞浮潛",
           "綠島夜光浮游生物",
