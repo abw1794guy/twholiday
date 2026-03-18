@@ -8,6 +8,7 @@ import { YearIntroSection } from './YearIntroSection'
 import { YearCalendar } from './YearCalendar'
 import { HolidayGrid } from './HolidayGrid'
 import { SourceFooter } from './SourceFooter'
+import { FloatingNav } from './FloatingNav'
 
 interface HolidayPageContentProps {
   data: HolidaysData
@@ -34,6 +35,7 @@ export function HolidayPageContent({ data, initialYear }: HolidayPageContentProp
         <HolidayGrid year={yearNum} holidays={holidays} monthlyTips={data.monthly_travel_tips} />
         <SourceFooter meta={data.meta} />
       </div>
+      <FloatingNav />
     </>
   )
 }
