@@ -105,9 +105,9 @@ export function HolidayGrid({ year, holidays, monthlyTips }: HolidayGridProps) {
 
   return (
     <section id="details" className="scroll-mt-6">
-      <h2 className="text-lg font-bold text-slate-800 mb-6">請假攻略詳情</h2>
+      <h2 className="text-2xl font-bold text-slate-800 mb-6">{year} 年行事曆與各月請假攻略詳情</h2>
       <p className="text-base text-slate-600 mb-6">
-        以下依月份顯示該月行事曆、請假攻略與旅遊推薦。
+        以下依月份顯示 {year} 年該月行事曆、國定假日、連假請假攻略與出國旅遊推薦。
       </p>
       <div className="space-y-10">
         {allMonths.map((month) => {
@@ -121,7 +121,7 @@ export function HolidayGrid({ year, holidays, monthlyTips }: HolidayGridProps) {
             >
               <div className="border-b border-slate-200 bg-slate-50 px-4 py-2">
                 <h3 className="text-xl font-bold text-slate-800">
-                  {year} 年 {MONTH_NAMES[month - 1]}
+                  {year} 年 {MONTH_NAMES[month - 1]} 行事曆與連假
                 </h3>
               </div>
               <div className="p-4 flex flex-col lg:flex-row gap-6">

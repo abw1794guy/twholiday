@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     apple: '/favicon.png',
   },
   title: {
-    default: '2026 行事曆與連假請假攻略｜人事行政總處中華民國115年辦公日曆表',
+    default: '【2026行事曆】人事行政總處中華民國115年行事曆 | 連假請假攻略',
     template: '%s | 台灣最強行事曆與請假攻略',
   },
   description:
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: '2026 行事曆與連假請假攻略｜人事行政總處中華民國115年辦公日曆表',
+    title: '【2026行事曆】人事行政總處中華民國115年行事曆 | 連假請假攻略',
     description: '最新 2026、2027 年台灣行事曆與國定假日連假日期、請 X 天休 Y 天策略、推薦行程，補班日整理。',
     url: 'https://holiday.twtool.tw',
     siteName: '台灣最強請假攻略',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '2026 行事曆與連假請假攻略｜人事行政總處中華民國115年辦公日曆表',
+    title: '【2026行事曆】人事行政總處中華民國115年行事曆 | 連假請假攻略',
     description: '最新 2026、2027 年台灣行事曆與國定假日連假日期、請 X 天休 Y 天策略、推薦行程，補班日整理。',
   },
   robots: {

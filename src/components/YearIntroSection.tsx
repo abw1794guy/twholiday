@@ -77,6 +77,9 @@ function YearIntroBanner({ year, holidays, yearMeta }: YearIntroSectionProps) {
             各假期最佳請假時機與推薦行程，以下一次看完！
           </span>
         </p>
+        <p className="sr-only">
+          本站提供最新 {year} 年台灣行事曆、人事行政總處辦公日曆表、國定假日、連假日期、補班日查詢，以及春節、清明節、端午節、中秋節、國慶日的最強請假攻略與出國旅遊推薦。
+        </p>
       </div>
     </div>
   )
