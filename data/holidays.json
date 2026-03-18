@@ -38,12 +38,12 @@
       "note": "2026 年資料依行政院人事行政總處官方公告。"
     },
     "2027": {
-      "status": "official",
-      "announcement": "行政院人事行政總處已正式公告",
+      "status": "predicted",
+      "announcement": "行政院人事行政總處尚未正式公告 2027 年（民國 116 年）政府行政機關辦公日曆表",
       "longestHolidayName": "春節",
       "longestHolidayDays": 9,
       "bestTrickLeaveDays": 0,
-      "note": "2027 年資料依行政院人事行政總處官方公告。"
+      "note": "2027 年為預測資料，實際以行政院公告為準。"
     },
     "2028": {
       "status": "predicted",
@@ -539,6 +539,22 @@
           "日本關西楓葉",
           "韓國雪嶽山楓葉"
         ]
+      },
+      {
+        "id": "constitution-2024",
+        "name": "行憲紀念日",
+        "nameEn": "Constitution Day",
+        "dateStart": "2024-12-25",
+        "dateEnd": "2024-12-25",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "12/25（三）行憲紀念日，無連假",
+        "best_leave_plan": "請 2 天休 5 天：請 12/23~12/24，休 12/21~12/25",
+        "travel_suggestions": [
+          "歐洲聖誕市集",
+          "日本東京跨年準備",
+          "台北信義區聖誕燈海"
+        ]
       }
     ],
     "2025": [
@@ -668,6 +684,22 @@
           "台北國慶煙火",
           "日本關西楓葉",
           "韓國雪嶽山楓葉"
+        ]
+      },
+      {
+        "id": "constitution-2025",
+        "name": "行憲紀念日",
+        "nameEn": "Constitution Day",
+        "dateStart": "2025-12-25",
+        "dateEnd": "2025-12-25",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "12/25（四）行憲紀念日，無連假",
+        "best_leave_plan": "請 1 天休 4 天：請 12/26，休 12/25~12/28",
+        "travel_suggestions": [
+          "歐洲聖誕市集",
+          "日本東京跨年準備",
+          "台北信義區聖誕燈海"
         ]
       }
     ],
@@ -799,6 +831,22 @@
           "日本關西楓葉",
           "韓國雪嶽山楓葉"
         ]
+      },
+      {
+        "id": "constitution-2026",
+        "name": "行憲紀念日",
+        "nameEn": "Constitution Day",
+        "dateStart": "2026-12-25",
+        "dateEnd": "2026-12-27",
+        "days": 3,
+        "isSingleDay": false,
+        "makeUpWorkNote": "12/25（五）行憲紀念日，連同週末共 3 天",
+        "best_leave_plan": "免請假：12/25（五）~12/27（日）連休 3 天",
+        "travel_suggestions": [
+          "歐洲聖誕市集",
+          "日本東京跨年準備",
+          "台北信義區聖誕燈海"
+        ]
       }
     ],
     "2027": [
@@ -928,6 +976,22 @@
           "台北國慶煙火",
           "日本關西楓葉",
           "韓國雪嶽山楓葉"
+        ]
+      },
+      {
+        "id": "constitution-2027",
+        "name": "行憲紀念日",
+        "nameEn": "Constitution Day",
+        "dateStart": "2027-12-25",
+        "dateEnd": "2027-12-27",
+        "days": 3,
+        "isSingleDay": false,
+        "makeUpWorkNote": "12/25（六）行憲紀念日，補假 12/27（一），連休 3 天",
+        "best_leave_plan": "免請假：12/25（六）~12/27（一）連休 3 天",
+        "travel_suggestions": [
+          "歐洲聖誕市集",
+          "日本東京跨年準備",
+          "台北信義區聖誕燈海"
         ]
       }
     ],
@@ -1059,6 +1123,22 @@
           "日本關西楓葉",
           "韓國雪嶽山楓葉"
         ]
+      },
+      {
+        "id": "constitution-2028",
+        "name": "行憲紀念日",
+        "nameEn": "Constitution Day",
+        "dateStart": "2028-12-23",
+        "dateEnd": "2028-12-25",
+        "days": 3,
+        "isSingleDay": false,
+        "makeUpWorkNote": "12/25（一）行憲紀念日，連同週末共 3 天",
+        "best_leave_plan": "免請假：12/23（六）~12/25（一）連休 3 天",
+        "travel_suggestions": [
+          "歐洲聖誕市集",
+          "日本東京跨年準備",
+          "台北信義區聖誕燈海"
+        ]
       }
     ],
     "2029": [
@@ -1188,6 +1268,22 @@
           "台北國慶煙火",
           "日本關西楓葉",
           "韓國雪嶽山楓葉"
+        ]
+      },
+      {
+        "id": "constitution-2029",
+        "name": "行憲紀念日",
+        "nameEn": "Constitution Day",
+        "dateStart": "2029-12-23",
+        "dateEnd": "2029-12-25",
+        "days": 3,
+        "isSingleDay": false,
+        "makeUpWorkNote": "12/25（二）行憲紀念日，連同週末共 3 天",
+        "best_leave_plan": "請 1 天休 4 天：請 12/24，休 12/23~12/26",
+        "travel_suggestions": [
+          "歐洲聖誕市集",
+          "日本東京跨年準備",
+          "台北信義區聖誕燈海"
         ]
       }
     ],
@@ -1319,6 +1415,22 @@
           "日本關西楓葉",
           "韓國雪嶽山楓葉"
         ]
+      },
+      {
+        "id": "constitution-2030",
+        "name": "行憲紀念日",
+        "nameEn": "Constitution Day",
+        "dateStart": "2030-12-25",
+        "dateEnd": "2030-12-25",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "12/25（三）行憲紀念日，無連假",
+        "best_leave_plan": "請 2 天休 5 天：請 12/23~12/24，休 12/21~12/25",
+        "travel_suggestions": [
+          "歐洲聖誕市集",
+          "日本東京跨年準備",
+          "台北信義區聖誕燈海"
+        ]
       }
     ],
     "2031": [
@@ -1448,6 +1560,22 @@
           "台北國慶煙火",
           "日本關西楓葉",
           "韓國雪嶽山楓葉"
+        ]
+      },
+      {
+        "id": "constitution-2031",
+        "name": "行憲紀念日",
+        "nameEn": "Constitution Day",
+        "dateStart": "2031-12-25",
+        "dateEnd": "2031-12-25",
+        "days": 1,
+        "isSingleDay": true,
+        "makeUpWorkNote": "12/25（四）行憲紀念日，無連假",
+        "best_leave_plan": "請 1 天休 4 天：請 12/26，休 12/25~12/28",
+        "travel_suggestions": [
+          "歐洲聖誕市集",
+          "日本東京跨年準備",
+          "台北信義區聖誕燈海"
         ]
       }
     ],
@@ -1579,6 +1707,22 @@
           "日本關西楓葉",
           "韓國雪嶽山楓葉"
         ]
+      },
+      {
+        "id": "constitution-2032",
+        "name": "行憲紀念日",
+        "nameEn": "Constitution Day",
+        "dateStart": "2032-12-25",
+        "dateEnd": "2032-12-27",
+        "days": 3,
+        "isSingleDay": false,
+        "makeUpWorkNote": "12/25（六）行憲紀念日，補假 12/27（一），連休 3 天",
+        "best_leave_plan": "免請假：12/25（六）~12/27（一）連休 3 天",
+        "travel_suggestions": [
+          "歐洲聖誕市集",
+          "日本東京跨年準備",
+          "台北信義區聖誕燈海"
+        ]
       }
     ],
     "2033": [
@@ -1708,6 +1852,22 @@
           "台北國慶煙火",
           "日本關西楓葉",
           "韓國雪嶽山楓葉"
+        ]
+      },
+      {
+        "id": "constitution-2033",
+        "name": "行憲紀念日",
+        "nameEn": "Constitution Day",
+        "dateStart": "2033-12-25",
+        "dateEnd": "2033-12-26",
+        "days": 2,
+        "isSingleDay": false,
+        "makeUpWorkNote": "12/25（日）行憲紀念日，補假 12/26（一），連休 2 天",
+        "best_leave_plan": "免請假：12/25（日）~12/26（一）連休 2 天",
+        "travel_suggestions": [
+          "歐洲聖誕市集",
+          "日本東京跨年準備",
+          "台北信義區聖誕燈海"
         ]
       }
     ]
