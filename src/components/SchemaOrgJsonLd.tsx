@@ -22,16 +22,34 @@ export function SchemaOrgJsonLd({ data }: SchemaOrgJsonLdProps) {
     })
   })
 
+  // Google Dataset 結構化資料：description 須約 50–5000 字元；license 建議填寫
+  const datasetDescription =
+    `本資料集彙整台灣各年度國定假日、政府行政機關辦公日曆表之放假起迄日期、連假天數、補班補假說明與請假攻略建議。` +
+    `資料來源參考${data.meta.source}；已公告年份以官方核定為準，預測年份僅供參考，實際放假仍以行政院人事行政總處公告為準。` +
+    `適合規劃休假、旅遊與人事排程。${data.meta.updateNote ?? ''}`
+
   const dataset = {
     '@context': 'https://schema.org',
     '@type': 'Dataset',
-    name: '2026-2027 台灣國定假日請假攻略',
-    description: data.meta.source + '，含連假日期與請假策略。',
+    name: '台灣國定假日與連假請假攻略（多年度）',
+    description: datasetDescription,
     url: 'https://holiday.twtool.tw',
+    license: 'https://creativecommons.org/licenses/by/4.0/',
     dateModified: data.meta.lastUpdated,
     creator: {
       '@type': 'Organization',
+      name: 'TWTool',
+      url: 'https://twtool.tw',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'TWTool',
+      url: 'https://twtool.tw',
+    },
+    isBasedOn: {
+      '@type': 'CreativeWork',
       name: data.meta.source,
+      url: 'https://www.dgpa.gov.tw/',
     },
     distribution: {
       '@type': 'DataDownload',
