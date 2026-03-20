@@ -36,7 +36,7 @@ function YearIntroBanner({ year, holidays, yearMeta }: YearIntroSectionProps) {
     ? status === 'historical'
       ? '歷史資料'
       : '官方已公布'
-    : '預測資料'
+    : '預估版'
   const statusColor = isOfficial
     ? status === 'historical'
       ? 'bg-slate-100 text-slate-600'

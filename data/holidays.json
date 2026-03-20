@@ -43,55 +43,55 @@
       "longestHolidayName": "春節",
       "longestHolidayDays": 9,
       "bestTrickLeaveDays": 0,
-      "note": "2027 年為預測資料，實際以行政院公告為準。"
+      "note": "2027 年為預估版，實際以行政院公告為準。"
     },
     "2028": {
       "status": "predicted",
-      "announcement": "預測資料，實際以行政院公告為準",
+      "announcement": "預估版，實際以行政院公告為準",
       "longestHolidayName": "春節",
       "longestHolidayDays": 10,
       "bestTrickLeaveDays": 0,
-      "note": "2028 年為預測資料。"
+      "note": "2028 年為預估版。"
     },
     "2029": {
       "status": "predicted",
-      "announcement": "預測資料，實際以行政院公告為準",
+      "announcement": "預估版，實際以行政院公告為準",
       "longestHolidayName": "春節",
       "longestHolidayDays": 9,
       "bestTrickLeaveDays": 0,
-      "note": "2029 年為預測資料。"
+      "note": "2029 年為預估版。"
     },
     "2030": {
       "status": "predicted",
-      "announcement": "預測資料，實際以行政院公告為準",
+      "announcement": "預估版，實際以行政院公告為準",
       "longestHolidayName": "春節",
       "longestHolidayDays": 8,
       "bestTrickLeaveDays": 0,
-      "note": "2030 年為預測資料。"
+      "note": "2030 年為預估版。"
     },
     "2031": {
       "status": "predicted",
-      "announcement": "預測資料，實際以行政院公告為準",
+      "announcement": "預估版，實際以行政院公告為準",
       "longestHolidayName": "春節",
       "longestHolidayDays": 11,
       "bestTrickLeaveDays": 0,
-      "note": "2031 年為預測資料。"
+      "note": "2031 年為預估版。"
     },
     "2032": {
       "status": "predicted",
-      "announcement": "預測資料，實際以行政院公告為準",
+      "announcement": "預估版，實際以行政院公告為準",
       "longestHolidayName": "春節",
       "longestHolidayDays": 10,
       "bestTrickLeaveDays": 0,
-      "note": "2032 年為預測資料。"
+      "note": "2032 年為預估版。"
     },
     "2033": {
       "status": "predicted",
-      "announcement": "預測資料，實際以行政院公告為準",
+      "announcement": "預估版，實際以行政院公告為準",
       "longestHolidayName": "春節",
       "longestHolidayDays": 10,
       "bestTrickLeaveDays": 0,
-      "note": "2033 年為預測資料。"
+      "note": "2033 年為預估版。"
     }
   },
   "monthly_travel_tips": {
